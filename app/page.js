@@ -116,7 +116,7 @@ export default function Home() {
         </AnimateIn>
         <AnimateIn delay={0.4}>
           <p className="hero-sub">
-            An executive search firm for critical leadership hires at the world&apos;s most innovative companies..
+            An executive search firm for critical leadership hires at the companies defining the future.
           </p>
         </AnimateIn>
         <div className="hero-scroll">
