@@ -31,7 +31,7 @@ export default function ContactPage() {
     <div className="contact-page">
       <nav className="nav" style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 100, background: "rgba(10,10,10,0.95)", backdropFilter: "blur(12px)", padding: "0 48px", height: 80, display: "flex", alignItems: "center", justifyContent: "space-between", borderBottom: "1px solid rgba(255,255,255,0.06)" }}>
         <Link href="/" style={{ textDecoration: "none" }}>
-          <img src="https://missionone.io/wp-content/uploads/2023/05/mission-one-logo-large.png" alt="Mission One" style={{ height: 72, filter: "brightness(0.5) sepia(1) hue-rotate(85deg) saturate(4) brightness(0.75)", cursor: "pointer" }} />
+          <img src="/mission_one.png" alt="Mission One" style={{ height: 72, cursor: "pointer" }} />
         </Link>
         <div style={{ display: "flex", gap: 36, alignItems: "center" }}>
           <Link href="/" className="contact-nav-link">Home</Link>
