@@ -71,7 +71,7 @@ export default function Home() {
       {/* NAV */}
       <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
         <img
-          src="https://missionone.io/wp-content/uploads/2023/05/mission-one-logo-large.png"
+          src="/mission_one.png"
           alt="Mission One — Executive Search for Games, Entertainment, and Technology"
           className="nav-logo"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
@@ -116,7 +116,7 @@ export default function Home() {
         </AnimateIn>
         <AnimateIn delay={0.4}>
           <p className="hero-sub">
-            An executive search firm for critical leadership hires at the companies defining the future.
+            An executive search firm for critical leadership hires at the world&apos;s most innovative companies.
           </p>
         </AnimateIn>
         <div className="hero-scroll">
@@ -318,7 +318,7 @@ export default function Home() {
       <footer className="footer" role="contentinfo">
         <div>
           <img
-            src="https://missionone.io/wp-content/uploads/2023/05/mission-one-logo-large.png"
+            src="/mission_one.png"
             alt="Mission One"
             className="footer-logo"
           />
@@ -337,3 +337,4 @@ export default function Home() {
     </>
   );
 }
+
