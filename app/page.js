@@ -77,7 +77,6 @@ export default function Home() {
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         />
         <div className="nav-links">
-          <button className="nav-link" onClick={() => scrollTo("about")}>About</button>
           <button className="nav-link" onClick={() => scrollTo("clients")}>Clients</button>
           <button className="nav-link" onClick={() => scrollTo("podcast")}>Podcast</button>
           <button className="nav-link" onClick={() => scrollTo("team")}>Team</button>
@@ -90,7 +89,6 @@ export default function Home() {
 
       {/* MOBILE MENU */}
       <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
-        <button className="mobile-menu-link" onClick={() => scrollTo("about")}>About</button>
         <button className="mobile-menu-link" onClick={() => scrollTo("clients")}>Clients</button>
         <button className="mobile-menu-link" onClick={() => scrollTo("podcast")}>Podcast</button>
         <button className="mobile-menu-link" onClick={() => scrollTo("team")}>Team</button>
@@ -116,7 +114,7 @@ export default function Home() {
         </AnimateIn>
         <AnimateIn delay={0.4}>
           <p className="hero-sub">
-            An executive search firm for critical leadership hires at the world&apos;s most innovative companies.
+            Mission One is an executive search firm for critical leadership hires at the world&apos;s most innovative companies. We leverage a deep international network, refined search playbook, and partner-led approach to help you make impact driving hires.
           </p>
         </AnimateIn>
         <div className="hero-scroll">
@@ -125,24 +123,7 @@ export default function Home() {
         </div>
       </header>
 
-      {/* ABOUT */}
-      <section className="section section-dark" id="about" aria-label="About Mission One">
-        <AnimateIn>
-          <div className="section-label">About Us</div>
-        </AnimateIn>
-        <AnimateIn delay={0.1}>
-          <h2 className="section-heading">
-            Building the best teams.<br /><em>We have the talent for it.</em>
-          </h2>
-        </AnimateIn>
-        <AnimateIn delay={0.2}>
-          <p className="section-text">
-            Founded by Dan Hampton and Gerard Miles, Mission One is an executive search firm leveraging a deep international network, refined search playbook, and partner-led approach to make connections that change lives. We have worked with some of the world&apos;s most innovative tech companies from startup to public stages.
-          </p>
-        </AnimateIn>
-      </section>
-
-      {/* CLIENTS */}
+        {/* CLIENTS */}
       <section className="section" id="clients" aria-label="Our Clients">
         <AnimateIn>
           <div className="section-label">Our Clients</div>
@@ -324,7 +305,6 @@ export default function Home() {
           />
         </div>
         <div className="footer-links">
-          <button className="footer-link" onClick={() => scrollTo("about")}>About</button>
           <button className="footer-link" onClick={() => scrollTo("clients")}>Clients</button>
           <button className="footer-link" onClick={() => scrollTo("podcast")}>Podcast</button>
           <button className="footer-link" onClick={() => scrollTo("team")}>Team</button>
