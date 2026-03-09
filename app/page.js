@@ -117,10 +117,7 @@ export default function Home() {
             Mission One is an executive search firm for critical leadership hires at the world&apos;s most innovative companies. We leverage a deep international network, refined search playbook, and partner-led approach to help you make impact driving hires.
           </p>
         </AnimateIn>
-        <div className="hero-scroll">
-          <div className="hero-scroll-line" />
-          Scroll to explore
-        </div>
+        
       </header>
 
         {/* CLIENTS */}
