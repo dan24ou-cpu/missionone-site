@@ -29,13 +29,13 @@ export default function ContactPage() {
 
   return (
     <div className="contact-page">
-      <nav className="nav" style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 100, background: "rgba(10,10,10,0.95)", backdropFilter: "blur(12px)", padding: "0 48px", height: 80, display: "flex", alignItems: "center", justifyContent: "space-between", borderBottom: "1px solid rgba(255,255,255,0.06)" }}>
+      <nav className="nav scrolled">
         <Link href="/" style={{ textDecoration: "none" }}>
-          <img src="/mission_one.png" alt="Mission One" style={{ height: 72, cursor: "pointer" }} />
+          <img src="/mission_one.png" alt="Mission One" className="nav-logo" />
         </Link>
-        <div style={{ display: "flex", gap: 36, alignItems: "center" }}>
-          <Link href="/" className="contact-nav-link">Home</Link>
-          <Link href="/contact" className="contact-nav-link active">Contact</Link>
+        <div className="nav-links">
+          <Link href="/" className="nav-link" style={{ textDecoration: "none" }}>Home</Link>
+          <Link href="/contact" className="nav-link" style={{ textDecoration: "none", color: "var(--green-accent)" }}>Contact</Link>
         </div>
       </nav>
 
@@ -128,18 +128,6 @@ export default function ContactPage() {
           display: flex;
           flex-direction: column;
         }
-        .contact-nav-link, .contact-nav-link:visited {
-          color: rgba(255,255,255,0.5);
-          text-decoration: none;
-          font-size: 13px;
-          font-weight: 500;
-          letter-spacing: 1.5px;
-          text-transform: uppercase;
-          transition: color 0.3s;
-        }
-        .contact-nav-link:hover, .contact-nav-link.active, .contact-nav-link.active:visited {
-          color: #0E8A22;
-        }
         .contact-main {
           padding: 160px 48px 80px;
           max-width: 1100px;
@@ -168,10 +156,12 @@ export default function ContactPage() {
           line-height: 1.2;
           margin: 0 0 24px;
           color: #fff;
+          letter-spacing: -1px;
         }
         .contact-heading em {
           color: #0E8A22;
-          font-style: normal;
+          font-style: italic;
+          font-weight: 300;
         }
         .contact-text {
           font-size: 16px;
