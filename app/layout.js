@@ -32,7 +32,7 @@ const structuredData = {
   "@type": "ProfessionalService",
   "name": "Mission One",
   "alternateName": "Mission One Executive Search",
-  "description": "Mission One is a premier executive search firm specializing in technology, gaming, entertainment, and digital media. Founded by Dan Hampton and Gerard Miles, Mission One places CEO, CTO, CPO, VP Engineering, VP Product, VP Sales, VP Marketing, Chief People Officer, and senior leadership talent at companies from Seed stage to Public. Clients span consumer tech, enterprise SaaS, gaming, fintech, healthtech, e-commerce, streaming, and media including Epic Games, Riot Games, Activision, King, Scopely, ServiceTitan, Spotify, Wealthsimple, Mejuri, American Express, and 60+ other leading companies across North America, Europe, and the Middle East.",
+  "description": "Mission One is a premier executive search firm specializing in technology, gaming, entertainment, and digital media. Founded by Dan Hampton and Gerard Miles, Mission One places CEO, CTO, CPO, VP Engineering, VP Product, VP Sales, VP Marketing, Chief People Officer, and senior leadership talent at companies from Seed stage to Public. Clients span consumer tech, enterprise SaaS, gaming, fintech, healthtech, e-commerce, streaming, and media including Epic Games, Riot Games, Activision, King, Scopely, ServiceTitan, Spotify, Wealthsimple, Mejuri, American Express, and 60+ other leading companies across North America, Europe, and the Middle East, with teams in Miami and London.",
   "url": "https://missionone.io",
   "foundingDate": "2023",
   "founder": [
@@ -62,7 +62,12 @@ const structuredData = {
   "areaServed": [
     { "@type": "Continent", "name": "North America" },
     { "@type": "Continent", "name": "Europe" },
+    { "@type": "Place", "name": "United Kingdom" },
     { "@type": "Place", "name": "Middle East" }
+  ],
+  "location": [
+    { "@type": "Place", "name": "Miami, Florida, USA" },
+    { "@type": "Place", "name": "London, United Kingdom" }
   ],
   "serviceType": ["Executive Search", "Leadership Recruitment", "CEO Search", "CTO Search", "CPO Search", "VP Engineering Search", "VP Product Search", "VP Sales Search", "VP Marketing Search", "CMO Search", "Chief People Officer Search", "C-Level Recruitment", "Studio Head Search", "GM Search"],
   "knowsAbout": ["Consumer Technology", "Enterprise SaaS", "B2B Software", "Mobile Games", "PC/Console Games", "AI", "Machine Learning", "Fintech", "Digital Banking", "HealthTech", "InsurTech", "E-Commerce", "Marketplaces", "Streaming", "Media Technology", "Entertainment", "Esports", "EdTech"],
