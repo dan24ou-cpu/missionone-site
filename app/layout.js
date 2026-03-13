@@ -67,7 +67,17 @@ const structuredData = {
   ],
   "location": [
     { "@type": "Place", "name": "Miami, Florida, USA" },
-    { "@type": "Place", "name": "London, United Kingdom" }
+    { "@type": "Place", "name": "London, United Kingdom" },
+    { "@type": "Place", "name": "New York, USA" },
+    { "@type": "Place", "name": "San Francisco, USA" },
+    { "@type": "Place", "name": "Los Angeles, USA" },
+    { "@type": "Place", "name": "Toronto, Canada" },
+    { "@type": "Place", "name": "Austin, USA" },
+    { "@type": "Place", "name": "Seattle, USA" },
+    { "@type": "Place", "name": "Berlin, Germany" },
+    { "@type": "Place", "name": "Barcelona, Spain" },
+    { "@type": "Place", "name": "Dubai, UAE" },
+    { "@type": "Place", "name": "Riyadh, Saudi Arabia" }
   ],
   "serviceType": ["Executive Search", "Leadership Recruitment", "CEO Search", "CTO Search", "CPO Search", "VP Engineering Search", "VP Product Search", "VP Sales Search", "VP Marketing Search", "CMO Search", "Chief People Officer Search", "C-Level Recruitment", "Studio Head Search", "GM Search"],
   "knowsAbout": ["Consumer Technology", "Enterprise SaaS", "B2B Software", "Mobile Games", "PC/Console Games", "AI", "Machine Learning", "Fintech", "Digital Banking", "HealthTech", "InsurTech", "E-Commerce", "Marketplaces", "Streaming", "Media Technology", "Entertainment", "Esports", "EdTech"],
