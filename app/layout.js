@@ -148,16 +148,19 @@ const structuredData = {
     {
       "@type": "Review",
       "author": {"@type": "Person", "name": "Eve Nam", "jobTitle": "SVP Talent, Scopely"},
+      "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 },
       "reviewBody": "I can count on one hand the best executive search partners I've had the opportunity to work with and Gerard and Dan represent two of the best in the industry. They build instant credibility with business leaders."
     },
     {
       "@type": "Review",
       "author": {"@type": "Person", "name": "Josh Taub", "jobTitle": "COO, Activision"},
+      "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 },
       "reviewBody": "Gerard and Dan have been an excellent resource to source talent that is a genuine fit for our needs. Their professionalism, and ability to understand the needs of the client, is unique in the space."
     },
     {
       "@type": "Review",
       "author": {"@type": "Person", "name": "Shawn Boom", "jobTitle": "CEO, Labster"},
+      "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 },
       "reviewBody": "Mission One delivered an outstanding global CPTO search, helping us successfully hire a top-tier leader with highly specific credentials. Their expertise in software leadership and rigorous vetting process made them a valuable partner in securing the right talent."
     }
   ]
