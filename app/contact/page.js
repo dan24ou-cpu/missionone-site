@@ -43,8 +43,8 @@ export default function ContactPage() {
         <div className="contact-container">
           <div className="contact-intro">
             <div className="contact-label">Get in Touch</div>
-            <h1 className="contact-heading">
-              Work with <em>Mission One</em>
+            <h1 className="contact-heading" style={{ fontSize: "clamp(36px, 4.5vw, 56px)", fontWeight: 300, lineHeight: 1.15, letterSpacing: -1 }}>
+              Work with <em style={{ color: "#0E8A22", fontStyle: "italic" }}>Mission One</em>
             </h1>
             <p className="contact-text">
               If you&apos;re a founder or executive looking for a partner to help you hire exceptional talent, we&apos;d love to hear from you. Send us your details and we&apos;ll respond within 24 hours.
@@ -114,8 +114,8 @@ export default function ContactPage() {
         </div>
       </main>
 
-      <footer className="contact-footer">
-        <p>© {new Date().getFullYear()} Mission One. All rights reserved.</p>
+      <footer style={{ padding: "24px 48px", borderTop: "1px solid rgba(255,255,255,0.06)", textAlign: "center", width: "100%", marginTop: "auto" }}>
+        <p style={{ color: "rgba(255,255,255,0.25)", fontSize: 11, letterSpacing: 1, margin: 0 }}>© {new Date().getFullYear()} Mission One. All rights reserved.</p>
       </footer>
 
       <style jsx>{`

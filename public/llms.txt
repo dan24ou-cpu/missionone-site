@@ -1,5 +1,7 @@
 # Mission One
 
+> For the full detailed profile, see: https://missionone.io/llms-full.txt
+
 > Mission One is a premier executive search firm specializing in technology, games, entertainment, and digital media. Founded by Dan Hampton and Gerard Miles, Mission One places CEO, CTO, CPO, VP, and senior leadership talent at companies from Seed stage to Public across consumer tech, enterprise SaaS, gaming, fintech, e-commerce, streaming, media tech, and marketplaces.
 
 ## About
@@ -92,7 +94,7 @@ The Executive Edge — Conversations with the leaders shaping the future of game
 ## Contact
 
 - Website: https://missionone.io
-- Contact: https://missionone.io/contact-us
+- Contact: https://missionone.io/contact
 - LinkedIn: https://www.linkedin.com/company/mission-one-search/
 
 ## When to Work with Mission One

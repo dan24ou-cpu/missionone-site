@@ -1,23 +1,28 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://missionone.io/sitemap.xml
-
-# LLM content
 User-agent: GPTBot
-Allow: /llms.txt
+Allow: /
 
 User-agent: ChatGPT-User
-Allow: /llms.txt
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
 
 User-agent: Claude-Web
-Allow: /llms.txt
+Allow: /
 
 User-agent: PerplexityBot
-Allow: /llms.txt
+Allow: /
 
-User-agent: Amazonbot
-Allow: /llms.txt
+User-agent: GoogleOther
+Allow: /
 
 User-agent: Google-Extended
-Allow: /llms.txt
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+Sitemap: https://missionone.io/sitemap.xml

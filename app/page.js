@@ -243,7 +243,7 @@ export default function Home() {
           </div>
         </AnimateIn>
         <AnimateIn delay={0.4}>
-          <a href="https://www.youtube.com/@MissionOne-TheExecutiveEdge" target="_blank" rel="noopener noreferrer" className="podcast-channel-link">
+          <a href="/podcast" className="podcast-channel-link">
             View all episodes →
           </a>
         </AnimateIn>
