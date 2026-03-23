@@ -373,10 +373,10 @@ body { overflow-x: hidden; }
   margin-bottom: 20px;
 }
 .podcast-featured-title {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   color: var(--text-primary);
-  margin-top: 20px;
+  margin-top: 16px;
 }
 .podcast-grid {
   display: grid;
