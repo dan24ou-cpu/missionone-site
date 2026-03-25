@@ -163,20 +163,6 @@ export const newsletters = [
         ]
       },
       {
-        heading: "Back-Channel Referencing: Powerful, but Treacherous",
-        paragraphs: [
-          "Formal references are table stakes. Candidates curate them. They're helpful but incomplete.",
-          "Back-channel references are where the real signal often lives.",
-          "But they are also where trust can be broken fastest.",
-          "Gerard and Dan outline three principles:",
-          "1. Source Carefully - Only speak to people you genuinely know and trust. Never reach into a candidate's current company. Never casually \"ping the network\" without thinking through consequences.",
-          "2. Time It Properly - Don't wait until the final week to validate someone's track record. Early validation avoids months of wasted time. Later-stage references deepen conviction and inform onboarding.",
-          "3. Frame It Around Success - Instead of asking, \"Where are they weak?\" ask: When were they at their best? What kind of partner do they thrive with? Were they driving the outcome, or just present?",
-          "One of the most powerful insights from the episode: within any successful initiative, there are usually only two to four true needle-movers. Referencing helps you identify whether your candidate was one of them or simply \"in the room.\"",
-          "Executive Search Insight: The goal of referencing isn't to disqualify. It's to understand how to set someone up to win."
-        ]
-      },
-      {
         heading: "Compensation: Alignment Beats Negotiation",
         paragraphs: [
           "Many offers fall apart because compensation conversations start too late.",
