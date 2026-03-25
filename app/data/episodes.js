@@ -112,10 +112,6 @@ export const episodes = [
     tags: ["hiring-process", "compensation", "onboarding"],
     faqs: [
       {
-        q: "How do you conduct back-channel references without damaging the candidate relationship?",
-        a: "Mission One recommends framing back-channel references around onboarding rather than judgment. Instead of asking 'Should we hire this person?', ask 'How can we best set this person up for success?' This approach yields more honest feedback while preserving candidate trust and the relationship."
-      },
-      {
         q: "Why do top executives turn down job offers?",
         a: "According to Dan Hampton and Gerard Miles, the most common reasons are: compensation misalignment that wasn't addressed early enough, a disorganized or disrespectful process that erodes candidate confidence, lack of clarity on role scope and reporting lines, and competitive counter-offers from current employers. Most of these are preventable with proper process discipline."
       }
