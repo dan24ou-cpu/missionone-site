@@ -97,8 +97,8 @@ export default async function EpisodePage({ params }) {
 
       <article className="section section-dark" style={{ paddingTop: 160 }}>
         {/* Breadcrumb */}
-        <nav style={{ marginBottom: 32, fontSize: 14, opacity: 0.6 }}>
-          <Link href="/podcast" style={{ color: "var(--green-accent)", textDecoration: "none" }}>
+        <nav style={{ marginBottom: 32, fontSize: 14, opacity: 0.6, fontFamily: "var(--font-body)" }}>
+          <Link href="/podcast" style={{ color: "var(--green-accent)", textDecoration: "none", fontFamily: "var(--font-body)" }}>
             Podcast
           </Link>
           <span style={{ margin: "0 8px" }}>/</span>

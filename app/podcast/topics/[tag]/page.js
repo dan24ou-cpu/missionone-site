@@ -63,7 +63,7 @@ export default async function TopicPage({ params }) {
       <Nav activePage="/podcast" />
 
       <section className="section section-dark" style={{ paddingTop: 160 }}>
-        <nav style={{ marginBottom: 32, fontSize: 14, opacity: 0.6 }}>
+        <nav style={{ marginBottom: 32, fontSize: 14, opacity: 0.6, fontFamily: "var(--font-body)" }}>
           <Link href="/podcast" style={{ color: "var(--green-accent)", textDecoration: "none" }}>Podcast</Link>
           <span style={{ margin: "0 8px" }}>/</span>
           <Link href="/podcast/topics" style={{ color: "var(--green-accent)", textDecoration: "none" }}>Topics</Link>
