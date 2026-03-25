@@ -15,6 +15,7 @@ export default function Nav({ activePage }) {
   const links = [
     { href: "/", label: "Home" },
     { href: "/podcast", label: "Podcast" },
+    { href: "/newsletter", label: "Newsletter" },
     { href: "/contact", label: "Contact" },
   ];
 

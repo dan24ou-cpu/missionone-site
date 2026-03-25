@@ -35,6 +35,8 @@ export default function ContactPage() {
         </Link>
         <div className="nav-links">
           <Link href="/" className="nav-link" style={{ textDecoration: "none" }}>Home</Link>
+          <Link href="/podcast" className="nav-link" style={{ textDecoration: "none" }}>Podcast</Link>
+          <Link href="/newsletter" className="nav-link" style={{ textDecoration: "none" }}>Newsletter</Link>
           <Link href="/contact" className="nav-link" style={{ textDecoration: "none", color: "var(--green-accent)" }}>Contact</Link>
         </div>
       </nav>

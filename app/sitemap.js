@@ -1,5 +1,6 @@
 import { episodes } from "./data/episodes";
 import { getAllTagSlugs } from "./data/tags";
+import { newsletters } from "./data/newsletters";
 
 export default function sitemap() {
   const staticPages = [
@@ -11,6 +12,12 @@ export default function sitemap() {
     },
     {
       url: "https://missionone.io/podcast",
+      lastModified: new Date().toISOString(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: "https://missionone.io/newsletter",
       lastModified: new Date().toISOString(),
       changeFrequency: "weekly",
       priority: 0.9,
@@ -43,5 +50,12 @@ export default function sitemap() {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...episodePages, ...topicPages];
+  const newsletterPages = newsletters.map((nl) => ({
+    url: `https://missionone.io/newsletter/${nl.id}`,
+    lastModified: nl.publishDate,
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...episodePages, ...topicPages, ...newsletterPages];
 }
