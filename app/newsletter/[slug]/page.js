@@ -85,7 +85,7 @@ export default async function NewsletterArticlePage({ params }) {
           {nl.content.map((section, i) => (
             <section key={i} style={{ marginBottom: 32 }}>
               {section.heading && (
-                <h2 style={{ fontFamily: "var(--font-heading)", fontSize: 22, marginBottom: 12, color: "var(--green-accent)" }}>
+                <h2 style={{ fontFamily: "var(--font-body)", fontSize: 22, marginBottom: 12, color: "var(--green-accent)", fontWeight: 500 }}>
                   {section.heading}
                 </h2>
               )}
@@ -104,7 +104,7 @@ export default async function NewsletterArticlePage({ params }) {
               Related Podcast Episode
             </p>
             <Link href={`/podcast/${relatedEpisode.id}`} style={{ textDecoration: "none", color: "inherit" }}>
-              <h3 style={{ fontFamily: "var(--font-heading)", fontSize: 18, marginBottom: 8 }}>
+              <h3 style={{ fontFamily: "var(--font-body)", fontSize: 18, marginBottom: 8, fontWeight: 400 }}>
                 {relatedEpisode.title}
               </h3>
               <p className="section-text" style={{ fontSize: 14 }}>

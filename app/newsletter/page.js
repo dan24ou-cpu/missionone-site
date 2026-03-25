@@ -59,7 +59,7 @@ export default function NewsletterPage() {
               <p style={{ fontSize: 13, opacity: 0.5, marginBottom: 8, fontFamily: "var(--font-mono)", letterSpacing: "0.02em" }}>
                 {new Date(nl.publishDate).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
               </p>
-              <h2 style={{ fontFamily: "var(--font-heading)", fontSize: 22, marginBottom: 8 }}>
+              <h2 style={{ fontFamily: "var(--font-body)", fontSize: 22, marginBottom: 8, fontWeight: 400 }}>
                 {nl.title}
               </h2>
               <p className="section-text" style={{ fontSize: 14, lineHeight: 1.6 }}>
