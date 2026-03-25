@@ -84,6 +84,10 @@ export default function PodcastPage() {
           <Link href={`/podcast/${featured.id}`} style={{ textDecoration: "none", color: "inherit" }}>
             <h2 className="podcast-featured-title">{featured.title}</h2>
           </Link>
+          <div style={{ display: "inline-flex", alignItems: "center", gap: 6, marginTop: 8, padding: "4px 12px", borderRadius: 16, background: "rgba(14, 138, 34, 0.1)", border: "1px solid rgba(14, 138, 34, 0.25)" }}>
+            <span style={{ fontSize: 12, color: "var(--green-accent)" }}>&#9654;</span>
+            <span style={{ fontSize: 13, color: "var(--green-accent)", fontFamily: "var(--font-mono)", letterSpacing: "0.02em" }}>45,000+ views</span>
+          </div>
           <p className="section-text" style={{ maxWidth: 640, fontSize: 14, lineHeight: 1.7, marginTop: 12 }}>
             {featured.summary.substring(0, 200)}...{" "}
             <Link href={`/podcast/${featured.id}`} style={{ color: "var(--green-accent)" }}>Read more</Link>
