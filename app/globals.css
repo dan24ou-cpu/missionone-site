@@ -10,6 +10,9 @@
   --text-secondary: #a0a0a0;
   --text-tertiary: #666666;
   --border: rgba(255,255,255,0.08);
+  --font-body: 'DM Sans', sans-serif;
+  --font-heading: 'Space Mono', monospace;
+  --font-mono: 'Space Mono', monospace;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
