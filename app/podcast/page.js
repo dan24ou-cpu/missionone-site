@@ -68,32 +68,6 @@ export default function PodcastPage() {
         </a>
       </section>
 
-      {/* TOPICS */}
-      <section className="section" style={{ paddingTop: 48, paddingBottom: 32 }}>
-        <div className="section-label" style={{ marginBottom: 16 }}>Browse by Topic</div>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 8, justifyContent: "center", maxWidth: 800, margin: "0 auto" }}>
-          {tagSlugs.map((slug) => (
-            <Link
-              key={slug}
-              href={`/podcast/topics/${slug}`}
-              style={{
-                display: "inline-block",
-                padding: "6px 14px",
-                borderRadius: 20,
-                border: "1px solid rgba(14, 138, 34, 0.4)",
-                color: "var(--green-accent)",
-                fontSize: 12,
-                textDecoration: "none",
-                fontFamily: "var(--font-mono)",
-                letterSpacing: "0.02em",
-              }}
-            >
-              {TAGS[slug].name}
-            </Link>
-          ))}
-        </div>
-      </section>
-
       {/* FEATURED */}
       {featured && (
         <section className="section">
