@@ -25,4 +25,8 @@ Allow: /
 User-agent: Amazonbot
 Allow: /
 
+# LLM-optimized content
+# Full company profile: https://missionone.io/llms-full.txt
+# Summary: https://missionone.io/llms.txt
+
 Sitemap: https://missionone.io/sitemap.xml

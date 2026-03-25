@@ -1,84 +1,53 @@
-"use client";
-import { useState, useEffect } from "react";
 import Link from "next/link";
-import Script from "next/script";
+import { episodes, FEATURED_EPISODE_ID, getEpisodeBySlug } from "../data/episodes";
+import { TAGS, getAllTagSlugs } from "../data/tags";
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
 
-const FEATURED_VIDEO = {
-  id: "ICHhPrpEXd0",
-  title: "Hiring the Right Product Leader Can Turn a Game Into a Billion-Dollar Franchise",
+export const metadata = {
+  title: "The Executive Edge Podcast | Mission One",
+  description: "Conversations with the leaders shaping the future of games, tech, and entertainment. Hosted by executive recruiters Gerard Miles and Dan Hampton of Mission One. Episodes cover executive hiring, C-suite careers, compensation, and leadership.",
+  openGraph: {
+    title: "The Executive Edge Podcast | Mission One",
+    description: "Conversations with the leaders shaping the future of games, tech, and entertainment. Hosted by Gerard Miles and Dan Hampton.",
+    url: "https://missionone.io/podcast",
+  },
+  alternates: {
+    canonical: "https://missionone.io/podcast",
+  },
 };
 
-const episodes = [
-  { id: "kELaDI6mbVw", title: "Negotiating Your Worth: The Executive Playbook for Compensation" },
-  { id: "IJ0LWcyZhUQ", title: "Why Top Executives Turn Down Offers" },
-  { id: "hZMJF46Qp-c", title: "The Biggest Executive Hiring Mistake is Letting Perfect Kill Good" },
-  { id: "KlowD9sU8eA", title: "How to 10x Your Response Rate in Executive Hiring: The Russian Doll Method" },
-  { id: "RbVVgAKFf2g", title: "The 7 Rules of Executive Hiring Every C-Suite Leader Learns Too Late" },
-  { id: "TD56HErhA6Y", title: "The First Step Leaders Miss in Executive Hiring And Why It Derails Searches" },
-  { id: "C7aWgPSjvP0", title: "Executive Career Acceleration: How Alexis Bonte Chooses Roles, Takes Smart Risks & Builds Momentum" },
-  { id: "c-VRl8BQuXg", title: "From Sims to Wordle: Jonathan Knight (NYT Games) on Hiring Potential & Building Creative Cultures" },
-  { id: "bhBenoO4JCo", title: "How to Run an Executive Job Search (Part 3)" },
-  { id: "F4Fwdap5cu8", title: "How to Run an Executive Job Search (Part 2)" },
-  { id: "zwHmZSkJ9qQ", title: "How to Run an Executive Job Search (Part 1)" },
-  { id: "lS3EW2sMlmA", title: "Prepare for an Executive Interview" },
-  { id: "C2OOTXG7QE4", title: "How to Move from VP to the C-Suite" },
-  { id: "frw_H4hFLms", title: "Mission One: The Executive Edge - The Inside Track to C-Suite Success" },
-];
-
 export default function PodcastPage() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  const featured = getEpisodeBySlug(FEATURED_EPISODE_ID);
+  const otherEpisodes = episodes.filter((ep) => ep.id !== FEATURED_EPISODE_ID);
+  const tagSlugs = getAllTagSlugs();
 
-  useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 60);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const videoStructuredData = {
+  const podcastSeriesSchema = {
     "@context": "https://schema.org",
-    "@type": "VideoObject",
-    "name": FEATURED_VIDEO.title,
-    "description": "Conversations with the leaders shaping the future of games, tech, and entertainment. Hosted by Dan Hampton and Gerard Miles of Mission One.",
-    "thumbnailUrl": `https://img.youtube.com/vi/${FEATURED_VIDEO.id}/maxresdefault.jpg`,
-    "uploadDate": "2025-01-01",
-    "embedUrl": `https://www.youtube.com/embed/${FEATURED_VIDEO.id}`,
-    "publisher": {
+    "@type": "PodcastSeries",
+    name: "Mission One: The Executive Edge",
+    description: "Conversations with the leaders shaping the future of games, tech, and entertainment. Hosted by executive recruiters Gerard Miles and Dan Hampton of Mission One.",
+    url: "https://missionone.io/podcast",
+    author: [
+      { "@type": "Person", name: "Dan Hampton" },
+      { "@type": "Person", name: "Gerard Miles" },
+    ],
+    publisher: {
       "@type": "Organization",
-      "name": "Mission One",
-      "url": "https://missionone.io"
-    }
+      name: "Mission One",
+      url: "https://missionone.io",
+    },
+    webFeed: "https://www.youtube.com/@MissionOne-TheExecutiveEdge",
   };
 
   return (
     <>
-      <Script
-        id="video-structured-data"
+      <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(videoStructuredData) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(podcastSeriesSchema) }}
       />
 
-      {/* NAV */}
-      <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
-        <Link href="/">
-          <img src="/mission_one.png" alt="Mission One" className="nav-logo" />
-        </Link>
-        <div className="nav-links">
-          <Link href="/" className="nav-link" style={{ textDecoration: "none", color: "inherit" }}>Home</Link>
-          <Link href="/podcast" className="nav-link" style={{ textDecoration: "none", color: "var(--green-accent)" }}>Podcast</Link>
-          <Link href="/contact" className="nav-link" style={{ textDecoration: "none", color: "inherit" }}>Contact</Link>
-        </div>
-        <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
-          <span /><span /><span />
-        </button>
-      </nav>
-
-      {/* MOBILE MENU */}
-      <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
-        <Link href="/" className="mobile-menu-link" style={{ textDecoration: "none", color: "inherit" }} onClick={() => setMenuOpen(false)}>Home</Link>
-        <Link href="/podcast" className="mobile-menu-link" style={{ textDecoration: "none", color: "inherit" }} onClick={() => setMenuOpen(false)}>Podcast</Link>
-        <Link href="/contact" className="mobile-menu-link" style={{ textDecoration: "none", color: "inherit" }} onClick={() => setMenuOpen(false)}>Contact</Link>
-      </div>
+      <Nav activePage="/podcast" />
 
       {/* HEADER */}
       <section className="section section-dark" style={{ paddingTop: 180 }}>
@@ -89,25 +58,64 @@ export default function PodcastPage() {
         <p className="section-text" style={{ marginBottom: 24 }}>
           Welcome to Mission One: The Executive Edge, where executive recruiters Gerard Miles and Dan Hampton share the real story behind landing top jobs in tech, gaming, and entertainment.
         </p>
-        <a href="https://www.youtube.com/@MissionOne-TheExecutiveEdge" target="_blank" rel="noopener noreferrer" className="podcast-channel-link">
-          Subscribe on YouTube →
+        <a
+          href="https://www.youtube.com/@MissionOne-TheExecutiveEdge"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="podcast-channel-link"
+        >
+          Subscribe on YouTube &rarr;
         </a>
       </section>
 
-      {/* FEATURED */}
-      <section className="section">
-        <div className="podcast-featured-label">Featured Episode</div>
-        <div className="podcast-embed" style={{ maxWidth: 720 }}>
-          <iframe
-            src={`https://www.youtube.com/embed/${FEATURED_VIDEO.id}`}
-            title={FEATURED_VIDEO.title}
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
+      {/* TOPICS */}
+      <section className="section" style={{ paddingTop: 48, paddingBottom: 32 }}>
+        <div className="section-label" style={{ marginBottom: 16 }}>Browse by Topic</div>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 8, justifyContent: "center", maxWidth: 800, margin: "0 auto" }}>
+          {tagSlugs.map((slug) => (
+            <Link
+              key={slug}
+              href={`/podcast/topics/${slug}`}
+              style={{
+                display: "inline-block",
+                padding: "6px 14px",
+                borderRadius: 20,
+                border: "1px solid rgba(14, 138, 34, 0.4)",
+                color: "var(--green-accent)",
+                fontSize: 12,
+                textDecoration: "none",
+                fontFamily: "var(--font-mono)",
+                letterSpacing: "0.02em",
+              }}
+            >
+              {TAGS[slug].name}
+            </Link>
+          ))}
         </div>
-        <h2 className="podcast-featured-title">{FEATURED_VIDEO.title}</h2>
       </section>
+
+      {/* FEATURED */}
+      {featured && (
+        <section className="section">
+          <div className="podcast-featured-label">Featured Episode</div>
+          <div className="podcast-embed" style={{ maxWidth: 720 }}>
+            <iframe
+              src={`https://www.youtube.com/embed/${featured.youtubeId}`}
+              title={featured.title}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+          <Link href={`/podcast/${featured.id}`} style={{ textDecoration: "none", color: "inherit" }}>
+            <h2 className="podcast-featured-title">{featured.title}</h2>
+          </Link>
+          <p className="section-text" style={{ maxWidth: 640, fontSize: 14, lineHeight: 1.7, marginTop: 12 }}>
+            {featured.summary.substring(0, 200)}...{" "}
+            <Link href={`/podcast/${featured.id}`} style={{ color: "var(--green-accent)" }}>Read more</Link>
+          </p>
+        </section>
+      )}
 
       {/* ALL EPISODES */}
       <section className="section section-dark">
@@ -116,42 +124,31 @@ export default function PodcastPage() {
           Watch &amp; <em>Listen</em>
         </h2>
         <div className="podcast-grid">
-          {episodes.map((ep) => (
-            <a
+          {otherEpisodes.map((ep) => (
+            <Link
               key={ep.id}
-              href={`https://www.youtube.com/watch?v=${ep.id}`}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={`/podcast/${ep.id}`}
               className="podcast-card"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="podcast-thumb-wrap">
                 <img
-                  src={`https://img.youtube.com/vi/${ep.id}/mqdefault.jpg`}
+                  src={`https://img.youtube.com/vi/${ep.youtubeId}/mqdefault.jpg`}
                   alt={ep.title}
                   className="podcast-thumb"
                 />
-                <div className="podcast-play-icon">▶</div>
+                <div className="podcast-play-icon">&#9654;</div>
               </div>
               <h3 className="podcast-card-title">{ep.title}</h3>
-            </a>
+              <p style={{ fontSize: 12, opacity: 0.5, marginTop: 4, fontFamily: "var(--font-mono)" }}>
+                {ep.durationLabel}
+              </p>
+            </Link>
           ))}
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="footer" role="contentinfo">
-        <div>
-          <img src="/mission_one.png" alt="Mission One" className="footer-logo" />
-        </div>
-        <div className="footer-links">
-          <Link href="/" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Home</Link>
-          <Link href="/podcast" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Podcast</Link>
-          <Link href="/contact" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Contact</Link>
-        </div>
-      </footer>
-      <div className="footer-copy">
-        © {new Date().getFullYear()} Mission One. All Rights Reserved.
-      </div>
+      <Footer />
     </>
   );
 }

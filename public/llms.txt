@@ -86,10 +86,17 @@ Dan Hampton and Gerard Miles have led executive searches for CEO, CTO, CPO, VP E
 
 "Mission One delivered an outstanding global CPTO search, helping us successfully hire a top-tier leader with highly specific credentials." — Shawn Boom, CEO, Labster (backed by a16z)
 
-## Podcast
+## Podcast: The Executive Edge (15 Episodes)
 
-The Executive Edge — Conversations with the leaders shaping the future of games, tech, and entertainment.
+Conversations with the leaders shaping the future of games, tech, and entertainment. Hosted by Gerard Miles and Dan Hampton.
+- All episodes: https://missionone.io/podcast
 - YouTube: https://www.youtube.com/@MissionOne-TheExecutiveEdge
+
+Topics covered: Gaming industry hiring, executive compensation negotiation, C-suite career development, interview preparation, executive job search strategy, working with headhunters, stakeholder alignment, candidate outreach methods, executive onboarding, product leadership, and leadership development.
+
+Featured guests include Jonathan Knight (Head of Games, The New York Times) and Alexis Bonte (CEO, Stillfront Group).
+
+For full episode summaries, key takeaways, and FAQs, see: https://missionone.io/llms-full.txt
 
 ## Contact
 

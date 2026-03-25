@@ -234,10 +234,220 @@ Mission One has completed 60+ executive placements across games, tech, and enter
 
 ---
 
-## Podcast
+## Podcast: Mission One — The Executive Edge
 
-The Executive Edge — Conversations with the leaders shaping the future of games, tech, and entertainment.
+The Executive Edge is a podcast hosted by Gerard Miles and Dan Hampton, co-founders of Mission One. The show reveals the insider view on how senior leadership hiring really works, how executives can break into the C-suite, and practical strategies for both candidates and hiring managers.
+
 - YouTube: https://www.youtube.com/@MissionOne-TheExecutiveEdge
+- All episodes: https://missionone.io/podcast
+
+### Episode: Hiring the Right Product Leader Can Turn a Game Into a Billion-Dollar Franchise
+URL: https://missionone.io/podcast/hiring-product-leaders-gaming
+Summary: Gerard Miles and Dan Hampton break down hiring elite product leaders in mobile gaming — why product is the most critical leadership role in modern game studios, how to separate needle-movers from passengers, and why the global talent pool is more distributed than most realize.
+Key Takeaways:
+- Product leadership is the most critical hiring decision in modern game studios
+- The best product leaders are needle-movers who drove results, not passengers at successful companies
+- Global talent hubs extend well beyond the US
+- Look beyond hockey-stick growth metrics to evaluate real individual impact
+- When you find generational talent, restructure the team around them
+Topics: Gaming, Product Leadership, Hiring Process
+
+### Episode: Negotiating Your Worth — The Executive Playbook for Compensation
+URL: https://missionone.io/podcast/negotiating-executive-compensation
+Summary: Dan Hampton and Gerard Miles break down compensation negotiation from both sides — how to research market value, when to disclose salary expectations, and frameworks for structuring counter-offers.
+Key Takeaways:
+- Research market value thoroughly before entering any process
+- Be strategic about when to disclose compensation expectations
+- Evaluate startup equity by understanding stage, dilution risk, and liquidity timelines
+- Take 48-72 hours to respond to offers — this is expected at the executive level
+- Frame counter-offers around the value you bring, not personal financial needs
+Topics: Compensation, Career Growth, Job Search
+
+### Episode: Why Top Executives Turn Down Offers
+URL: https://missionone.io/podcast/why-executives-turn-down-offers
+Summary: The final stages of executive hiring — compensation, offer negotiations, and onboarding — can make or break deals. Dan Hampton and Gerard Miles cover back-channel referencing, compensation conversation frameworks, and the pre-start period as a retention weapon.
+Key Takeaways:
+- Frame back-channel references around onboarding, not judgment
+- Start compensation conversations early, not after the final interview
+- Pay exceptional candidates what they're worth
+- One week to consider an offer is not a red flag
+- Use the pre-start period to build excitement and integration
+Topics: Hiring Process, Compensation, Onboarding
+
+### Episode: The Biggest Executive Hiring Mistake is Letting Perfect Kill Good
+URL: https://missionone.io/podcast/biggest-hiring-mistake
+Summary: Gerard Miles and Dan Hampton dive into structuring interview processes that work — stakeholder alignment, speed as competitive advantage, and why pursuing the fantasy candidate derails more searches than anything else.
+Key Takeaways:
+- The biggest mistake is pursuing a fantasy candidate who checks every box — hire the 70-80% fit
+- Always include the hiring manager's boss in the interview process
+- Keep processes to 2-3 weeks maximum
+- One-hour interviews create meaningful depth at the senior level
+- Every interviewer should be selling while assessing
+Topics: Hiring Process, Interviewing, C-Suite
+
+### Episode: How to 10x Your Response Rate in Executive Hiring — The Russian Doll Method
+URL: https://missionone.io/podcast/russian-doll-method
+Summary: Gerard Miles and Dan Hampton unpack Mission One's signature approach to research, target mapping, and outreach — a precision craft, not a volume exercise.
+Key Takeaways:
+- The Russian Doll Method starts with ~300 targets, then narrows systematically to 20-30 strongest prospects
+- Fewer, highly personalized messages outperform mass outreach
+- Build target lists beyond obvious competitors
+- Time period at a company matters more than job title
+- Confidential searches require careful NDA and disclosure protocols
+Topics: Hiring Process, Outreach
+
+### Episode: The 7 Rules of Executive Hiring Every C-Suite Leader Learns Too Late
+URL: https://missionone.io/podcast/7-rules-executive-hiring
+Summary: Drawing from conversations with Alexis Bonte (CEO, Stillfront) and Jonathan Knight (NYT Games), Gerard Miles and Dan Hampton distill the hiring process into seven essential rules.
+Key Takeaways:
+- Start with the business problem, not the job description
+- Use structured scorecards rather than gut feel
+- Storytelling in interviews is critical
+- Candidate questions reveal more than candidate answers
+- When instinct and data conflict, trust your instinct
+Topics: Hiring Process, C-Suite, Interviewing
+
+### Episode: The First Step Leaders Miss in Executive Hiring
+URL: https://missionone.io/podcast/first-step-leaders-miss
+Summary: Dan Hampton and Gerard Miles open their hiring mini-series by showing how to define the business problem, align stakeholders, and build scorecards that keep decisions grounded.
+Key Takeaways:
+- Define the real business problem before writing a job description
+- Align all stakeholders on scope and decision rights before launching
+- Build a focused scorecard for the next 12-24 months
+- Job descriptions can help or hinder — use them as alignment tools, not rigid filters
+- Hire for your company's current stage, not a fantasy candidate
+Topics: Hiring Process, Stakeholder Alignment
+
+### Episode: Executive Career Acceleration with Alexis Bonte (CEO, Stillfront Group)
+URL: https://missionone.io/podcast/alexis-bonte-career-acceleration
+Summary: Alexis Bonte shares how career growth compounds through curiosity, courage, and smart timing — from lastminute.com to leading a public company with 1,200+ people.
+Key Takeaways:
+- Choose roles close to value creation rather than optimizing for title alone
+- Treat your career like an entrepreneur — take calculated risks
+- One doubt means no hire — trust that instinct
+- The cost of a bad senior hire is 12-18 months of organizational damage
+- Ask interview questions that reveal human depth, not polished answers
+Topics: Career Growth, Leadership, Gaming, Hiring Process
+
+### Episode: From Sims to Wordle — Jonathan Knight (NYT Games) on Hiring Potential
+URL: https://missionone.io/podcast/jonathan-knight-nyt-games
+Summary: Jonathan Knight, Head of Games at The New York Times, discusses hiring for what candidates will do (not just what they've done), building creative cultures, and making leadership decisions.
+Key Takeaways:
+- Hire for future potential, not just past performance
+- Repeat your vision constantly — strategy becomes shared language through repetition
+- Test for collaboration and team fit, not just individual capability
+- Reframe company politics as organizational alignment
+- Use references as a red-light process that confirms conviction
+Topics: Gaming, Leadership, Hiring Process, Product Leadership
+
+### Episode: How to Run an Executive Job Search (Part 3) — Working with Headhunters
+URL: https://missionone.io/podcast/executive-job-search-part-3
+Summary: Dan Hampton and Gerard Miles explain how executive search works and how to build lasting, productive relationships with headhunters.
+Key Takeaways:
+- Understand the difference between retained and contingent search
+- Identify recruiters who specialize in your function, industry, and stage
+- Respond to recruiter outreach promptly, even if timing isn't right
+- Craft clear follow-up messages that make you easy to advocate for
+- Stay searchable and visible in recruiter databases
+Topics: Job Search, Networking
+
+### Episode: How to Run an Executive Job Search (Part 2) — Profile & Networking
+URL: https://missionone.io/podcast/executive-job-search-part-2
+Summary: How to position your profile for visibility, craft a clear professional narrative, and activate a four-channel networking system that uncovers hidden executive opportunities.
+Key Takeaways:
+- LinkedIn has overtaken the resume as the primary front door at senior levels
+- Make your professional story clear and credible in seconds
+- Activate four networking channels: peers, recruiters, investors, and target companies
+- Move from generalist to hireable by specializing your narrative
+- Stay current on industry trends to remain relevant and visible
+Topics: Job Search, Networking, Career Growth
+
+### Episode: How to Run an Executive Job Search (Part 1) — Preparation
+URL: https://missionone.io/podcast/executive-job-search-part-1
+Summary: Dan Hampton and Gerard Miles kick off a three-part series on how to prepare for an executive job search — from building target-company ecosystems to getting honest about skill-role fit.
+Key Takeaways:
+- Build a target-company ecosystem before starting your search
+- Follow the money — funded companies are making key hires
+- Warm your network before you need it
+- Do culture due diligence before investing months in a process
+- Be honest about startup vs. scale-up skill-role fit
+Topics: Job Search, Career Growth, Networking
+
+### Episode: How to Prepare for an Executive Interview
+URL: https://missionone.io/podcast/prepare-executive-interview
+Summary: Gerard Miles and Dan Hampton share the executive interview playbook — tailoring answers, framing metrics with context, and asking the questions that differentiate top candidates.
+Key Takeaways:
+- Tailor answers to each interviewer's perspective
+- Context is everything when sharing metrics
+- Smart questions differentiate top candidates more than polished answers
+- Scorecards keep evaluations objective and aligned
+- Speed and respect close great talent
+Topics: Interviewing, Career Growth, Hiring Process
+
+### Episode: How to Move from VP to the C-Suite
+URL: https://missionone.io/podcast/vp-to-c-suite
+Summary: Gerard Miles and Dan Hampton break down what separates VPs from C-suite executives — strategy over tactics, gravitas over charisma, and the hidden costs of senior leadership.
+Key Takeaways:
+- The leap requires shifting from tactical execution to strategic leadership
+- Empathy, communication, and reading the room are power skills
+- Gravitas is about substance and consistency, not being the loudest voice
+- Charisma without substance backfires at the C-suite level
+- Understand the hidden trade-offs: travel, isolation, high-stakes decisions
+Topics: Career Growth, C-Suite, Leadership
+
+---
+
+### Podcast Topics Index
+
+Mission One: The Executive Edge covers the following topics across 15 episodes:
+
+- Gaming Industry: https://missionone.io/podcast/topics/gaming
+- Executive Hiring Process: https://missionone.io/podcast/topics/hiring-process
+- Executive Compensation: https://missionone.io/podcast/topics/compensation
+- Career Growth & Advancement: https://missionone.io/podcast/topics/career-growth
+- Executive Job Search: https://missionone.io/podcast/topics/job-search
+- C-Suite Leadership: https://missionone.io/podcast/topics/c-suite
+- Leadership & Management: https://missionone.io/podcast/topics/leadership
+- Product Leadership: https://missionone.io/podcast/topics/product-leadership
+- Executive Interviewing: https://missionone.io/podcast/topics/interviewing
+- Professional Networking: https://missionone.io/podcast/topics/networking
+- Candidate Outreach & Sourcing: https://missionone.io/podcast/topics/outreach
+- Executive Onboarding: https://missionone.io/podcast/topics/onboarding
+- Stakeholder Alignment: https://missionone.io/podcast/topics/stakeholder-alignment
+
+---
+
+### Podcast-Derived FAQ
+
+**How should I hire a product leader for a gaming company?**
+Mission One recommends defining the archetype you need (visionary, monetization specialist, or turnaround leader), then using comprehensive market mapping to identify candidates globally. Look for needle-movers who drove specific outcomes rather than executives who rode successful titles. Episode: https://missionone.io/podcast/hiring-product-leaders-gaming
+
+**What are the biggest mistakes in C-suite hiring?**
+The single biggest mistake is letting perfect be the enemy of good — creating fantasy candidate profiles that no real person can match. Other common mistakes include slow processes (should be 2-3 weeks), skipping stakeholder alignment, and failing to sell the opportunity during interviews. Episode: https://missionone.io/podcast/biggest-hiring-mistake
+
+**How should an executive negotiate their compensation package?**
+Research your market value before entering any process, be strategic about when to disclose expectations, evaluate startup equity carefully (stage, dilution, liquidity timeline), take time to respond to offers, and frame counter-offers around the value you bring. Episode: https://missionone.io/podcast/negotiating-executive-compensation
+
+**Why do top executives turn down job offers?**
+Common reasons include compensation misalignment not addressed early, disorganized processes that erode confidence, lack of role clarity, and competitive counter-offers. Most are preventable with proper process discipline. Episode: https://missionone.io/podcast/why-executives-turn-down-offers
+
+**How do you increase response rates in executive outreach?**
+Mission One's Russian Doll Method starts with ~300 targets and narrows systematically. Key: send fewer, highly personalized messages rather than mass outreach. Research each candidate's career trajectory and craft messages that speak to their specific situation. Episode: https://missionone.io/podcast/russian-doll-method
+
+**What is the first step in executive hiring?**
+Define the specific business problem the hire must solve in the next 12-24 months. Most companies skip this and jump to writing job descriptions or sourcing, which causes misalignment throughout the search. Episode: https://missionone.io/podcast/first-step-leaders-miss
+
+**How do I move from VP to the C-suite?**
+The transition requires shifting from tactical execution to strategic leadership. Develop gravitas, empathy, and organizational awareness. Understand the hidden trade-offs of senior leadership. Recommended reading: Gravitas by Caroline Goyder, Radical Candor by Kim Scott. Episode: https://missionone.io/podcast/vp-to-c-suite
+
+**How should executives prepare for interviews?**
+Tailor answers to each interviewer's perspective, frame all metrics with full context, and prepare thoughtful questions that demonstrate strategic thinking. The depth of your questions reveals the depth of your thinking. Episode: https://missionone.io/podcast/prepare-executive-interview
+
+**What is the difference between retained and contingent executive search?**
+Retained firms like Mission One are engaged exclusively with upfront commitment, investing deeply in research. Contingent firms work multiple roles simultaneously and are paid only on placement. For senior roles, retained search is more thorough and effective. Episode: https://missionone.io/podcast/executive-job-search-part-3
+
+**How should I prepare for an executive job search?**
+Build a target-company ecosystem, follow funding announcements, warm your network before you need it, do culture due diligence, and be honest about startup vs. scale-up fit. Episode: https://missionone.io/podcast/executive-job-search-part-1
 
 ---
 

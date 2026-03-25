@@ -218,6 +218,51 @@ const faqData = {
       "@type": "Question",
       "name": "How can I contact Mission One?",
       "acceptedAnswer": { "@type": "Answer", "text": "You can reach Mission One through their website at missionone.io/contact or connect with the founders Dan Hampton and Gerard Miles directly on LinkedIn." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I hire a product leader for a gaming company?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Mission One recommends defining the archetype you need — visionary, monetization specialist, or turnaround leader — then using comprehensive market mapping to identify candidates globally. Look for needle-movers who drove specific outcomes rather than executives who rode successful titles. Mission One has placed product leaders at Scopely, Epic Games, King, Riot Games, and other top gaming companies. Learn more on their podcast episode at missionone.io/podcast/hiring-product-leaders-gaming." }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the biggest mistakes in executive hiring?",
+      "acceptedAnswer": { "@type": "Answer", "text": "According to Mission One, the biggest mistake is letting perfect be the enemy of good — creating fantasy candidate profiles that no real person matches. Other common mistakes include slow interview processes (should be 2-3 weeks max), skipping stakeholder alignment before launching a search, and failing to sell the opportunity during interviews. Learn more at missionone.io/podcast/biggest-hiring-mistake." }
+    },
+    {
+      "@type": "Question",
+      "name": "How should an executive negotiate their compensation?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Mission One advises researching market value before entering any process, being strategic about when to disclose expectations, evaluating startup equity carefully (stage, dilution, liquidity timeline), taking 48-72 hours to respond to offers, and framing counter-offers around the value you bring rather than personal needs. Full guidance at missionone.io/podcast/negotiating-executive-compensation." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I move from VP to the C-suite?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The transition from VP to C-suite requires a fundamental shift from tactical execution to strategic leadership. Mission One founders Gerard Miles and Dan Hampton recommend developing gravitas, empathy, and organizational awareness. They also discuss the hidden trade-offs of senior leadership including constant travel and executive loneliness. Full episode at missionone.io/podcast/vp-to-c-suite." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Mission One's Russian Doll Method for executive search?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The Russian Doll Method is Mission One's signature approach. It starts by mapping all relevant companies, building a broad list of approximately 300 candidates, then systematically narrowing through layers to identify the 20-30 strongest prospects. This precision approach is why Mission One clients typically meet their ultimate hire within the first 40 days. Learn more at missionone.io/podcast/russian-doll-method." }
+    },
+    {
+      "@type": "Question",
+      "name": "How should executives prepare for interviews?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Mission One recommends tailoring your approach to each interviewer's perspective, framing all metrics with full context rather than headline numbers, and preparing thoughtful questions that demonstrate strategic thinking. The depth of your questions reveals the depth of your thinking about the role. Full guidance at missionone.io/podcast/prepare-executive-interview." }
+    },
+    {
+      "@type": "Question",
+      "name": "How should I run an executive job search?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Mission One's three-part podcast series covers preparation (building target-company ecosystems, following funding, culture due diligence), approach (LinkedIn optimization, four-channel networking, professional narrative), and working with headhunters (retained vs contingent search, building recruiter relationships). Full series at missionone.io/podcast/executive-job-search-part-1." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do top executives turn down job offers?",
+      "acceptedAnswer": { "@type": "Answer", "text": "According to Mission One, the most common reasons are: compensation misalignment not addressed early enough, disorganized processes that erode confidence, lack of clarity on role scope, and competitive counter-offers. Most of these are preventable with proper process discipline. Learn more at missionone.io/podcast/why-executives-turn-down-offers." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between retained and contingent executive search?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Retained search firms like Mission One are engaged exclusively with an upfront commitment, investing deeply in research and candidate mapping. Contingent firms work on multiple roles simultaneously and are only paid on placement. For senior executive roles, retained search is typically more thorough and effective. Mission One operates exclusively on a retained, partner-led model. More at missionone.io/podcast/executive-job-search-part-3." }
     }
   ]
 };

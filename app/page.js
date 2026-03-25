@@ -243,7 +243,24 @@ export default function Home() {
           </div>
         </AnimateIn>
         <AnimateIn delay={0.4}>
-          <a href="/podcast" className="podcast-channel-link">
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 16, maxWidth: 800, margin: "32px auto 0" }}>
+            {[
+              { id: "hiring-product-leaders-gaming", youtubeId: "ICHhPrpEXd0", title: "Hiring the Right Product Leader Can Turn a Game Into a Billion-Dollar Franchise" },
+              { id: "negotiating-executive-compensation", youtubeId: "kELaDI6mbVw", title: "Negotiating Your Worth: The Executive Playbook for Compensation" },
+              { id: "7-rules-executive-hiring", youtubeId: "F4Fwdap5cu8", title: "The 7 Rules of Executive Hiring Every C-Suite Leader Learns Too Late" },
+            ].map((ep) => (
+              <a key={ep.id} href={`/podcast/${ep.id}`} className="podcast-card" style={{ textDecoration: "none", color: "inherit" }}>
+                <div className="podcast-thumb-wrap">
+                  <img src={`https://img.youtube.com/vi/${ep.youtubeId}/mqdefault.jpg`} alt={ep.title} className="podcast-thumb" />
+                  <div className="podcast-play-icon">&#9654;</div>
+                </div>
+                <h3 className="podcast-card-title" style={{ fontSize: 13 }}>{ep.title}</h3>
+              </a>
+            ))}
+          </div>
+        </AnimateIn>
+        <AnimateIn delay={0.5}>
+          <a href="/podcast" className="podcast-channel-link" style={{ marginTop: 32 }}>
             View all episodes →
           </a>
         </AnimateIn>
