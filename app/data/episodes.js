@@ -77,10 +77,6 @@ export const episodes = [
         q: "When should you reveal your salary expectations in an executive hiring process?",
         a: "According to Dan Hampton and Gerard Miles, timing matters significantly. Disclosing too early can anchor you below your market value, while avoiding the question entirely can create friction. The best approach is to share a well-researched range at the appropriate stage — typically after you understand the full scope of the role and the company's compensation philosophy."
       },
-      {
-        q: "How do you evaluate equity in an early-stage startup offer?",
-        a: "Mission One recommends looking beyond the headline grant value. Assess the company's current valuation, expected dilution from future funding rounds, the realistic timeline to liquidity, and compare the equity component against cash compensation at more established companies. Not all equity is created equal."
-      }
     ],
     metaDescription: "Dan Hampton and Gerard Miles share the executive playbook for compensation negotiation — from researching market value to structuring counter-offers.",
     relatedEpisodes: ["why-executives-turn-down-offers", "vp-to-c-suite", "executive-job-search-part-1"]
