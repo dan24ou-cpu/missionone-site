@@ -79,9 +79,9 @@ export default function Home() {
         <div className="nav-links">
           <button className="nav-link" onClick={() => scrollTo("clients")}>Clients</button>
           <button className="nav-link" onClick={() => scrollTo("podcast")}>Podcast</button>
-          <a href="/newsletter" className="nav-link" style={{ textDecoration: "none", color: "inherit" }}>Newsletter</a>
           <button className="nav-link" onClick={() => scrollTo("team")}>Team</button>
           <a href="/contact" className="nav-link" style={{ textDecoration: "none", color: "inherit" }}>Contact</a>
+          <a href="/newsletter" className="nav-link" style={{ textDecoration: "none", color: "inherit" }}>Newsletter</a>
         </div>
         <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
           <span /><span /><span />
@@ -92,9 +92,9 @@ export default function Home() {
       <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
         <button className="mobile-menu-link" onClick={() => scrollTo("clients")}>Clients</button>
         <button className="mobile-menu-link" onClick={() => scrollTo("podcast")}>Podcast</button>
-        <a href="/newsletter" className="mobile-menu-link" style={{ textDecoration: "none", color: "inherit" }}>Newsletter</a>
         <button className="mobile-menu-link" onClick={() => scrollTo("team")}>Team</button>
         <a href="/contact" className="mobile-menu-link" style={{ textDecoration: "none", color: "inherit" }}>Contact</a>
+        <a href="/newsletter" className="mobile-menu-link" style={{ textDecoration: "none", color: "inherit" }}>Newsletter</a>
       </div>
 
       {/* HERO */}
@@ -306,9 +306,9 @@ export default function Home() {
         <div className="footer-links">
           <button className="footer-link" onClick={() => scrollTo("clients")}>Clients</button>
           <button className="footer-link" onClick={() => scrollTo("podcast")}>Podcast</button>
-          <a href="/newsletter" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Newsletter</a>
           <button className="footer-link" onClick={() => scrollTo("team")}>Team</button>
           <a href="/contact" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Contact</a>
+          <a href="/newsletter" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Newsletter</a>
         </div>
       </footer>
       <div className="footer-copy">

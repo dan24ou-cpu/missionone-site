@@ -10,8 +10,8 @@ export default function Footer() {
         <div className="footer-links">
           <Link href="/" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Home</Link>
           <Link href="/podcast" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Podcast</Link>
-          <Link href="/newsletter" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Newsletter</Link>
           <Link href="/contact" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Contact</Link>
+          <Link href="/newsletter" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Newsletter</Link>
         </div>
       </footer>
       <div className="footer-copy">
