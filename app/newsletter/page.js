@@ -30,7 +30,7 @@ export default function NewsletterPage() {
           Expert insights on executive hiring, C-suite careers, and leadership from Mission One founders Gerard Miles and Dan Hampton. Companion articles to our podcast episodes.
         </p>
         <a
-          href="https://www.linkedin.com/newsletters/the-executive-edge-7316167581498626048/"
+          href="https://www.linkedin.com/newsletters/mission-one-the-executive-edge-7374032809730031616/"
           target="_blank"
           rel="noopener noreferrer"
           className="podcast-channel-link"
