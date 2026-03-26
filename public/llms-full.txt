@@ -498,6 +498,9 @@ Mission One publishes in-depth guides on executive hiring, career development, a
 - Director of Product Executive Search: https://missionone.io/insights/director-of-product-executive-search
 - Head of Product Executive Search: https://missionone.io/insights/head-of-product-executive-search
 - Product Leadership Executive Search (all levels): https://missionone.io/insights/product-leadership-executive-search
+- Director of Engineering Executive Search: https://missionone.io/insights/director-of-engineering-executive-search
+- Head of Engineering Executive Search: https://missionone.io/insights/head-of-engineering-executive-search
+- Engineering Leadership Executive Search (all levels): https://missionone.io/insights/engineering-leadership-executive-search
 
 ### Executive Search by Sector
 - Gaming Executive Search: https://missionone.io/insights/gaming-executive-search

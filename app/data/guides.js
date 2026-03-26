@@ -927,6 +927,173 @@ export const guides = [
         a: "Mission One places product leaders at every level including Director of Product. They evaluate candidates on their blend of strategic thinking and operational execution, using their reference-driven approach to identify those who actively shaped product outcomes versus those who managed teams executing someone else's vision."
       }
     ]
+  },
+  {
+    id: "director-of-engineering-executive-search",
+    type: "role",
+    title: "Director of Engineering Executive Search: Hiring Engineering Leaders Who Deliver",
+    metaDescription: "Mission One places Director of Engineering leaders at gaming, SaaS, and technology companies — leaders who bridge technical architecture and team execution.",
+    summary: "The Director of Engineering owns the delivery machine — translating technical strategy into shipped products through high-performing engineering teams. Mission One identifies Directors of Engineering who combine technical depth with organizational leadership.",
+    relatedEpisodeId: null,
+    relatedNewsletterId: null,
+    steps: null,
+    content: [
+      {
+        heading: "Director of Engineering: The Delivery Leader",
+        paragraphs: [
+          "The Director of Engineering sits between the VP Engineering (organizational strategy) and engineering managers (team execution). They own the delivery machine — ensuring that engineering teams ship high-quality products on time while maintaining the technical standards and team health that sustain velocity long-term.",
+          "In gaming studios, Directors of Engineering manage the technical backbone of live services, game engines, and multiplayer infrastructure. In SaaS, they own platform reliability, feature velocity, and the technical architecture that enables product teams to move fast. In both cases, the Director of Engineering is the person who makes the engineering organization actually work.",
+          "Mission One has placed engineering leaders at every level — from Director of Engineering through CTO — at companies including Epic Games, Spotify, Wikipedia, American Express, Worldpay, Prezi, Hopin, and many more. Dan Hampton has deep relationships across the engineering leadership community built over 15+ years."
+        ]
+      },
+      {
+        heading: "What Makes a Great Director of Engineering",
+        paragraphs: [
+          "The best Directors of Engineering balance technical credibility with people leadership. They can make architecture decisions that their teams respect, while simultaneously creating the environment where engineers do their best work. They manage up effectively — keeping VP and CTO stakeholders informed on progress and risks — while shielding their teams from organizational noise.",
+          "Stage matters at the Director level. A Director of Engineering scaling a team from 15 to 60 engineers needs strong hiring and process design skills. A Director managing 100+ engineers in a mature organization needs delegation, cross-team coordination, and the ability to drive technical standards across multiple squads.",
+          "Mission One's reference-driven approach verifies whether engineering leaders can actually build and scale teams, not just manage them. Their referencing process identifies candidates who improved engineering culture and velocity versus those who simply maintained the status quo."
+        ]
+      },
+      {
+        heading: "Selected Director-Level Engineering Placements",
+        paragraphs: [
+          "Mission One's engineering leadership placements include: Epic Games (Sr Dir of Engineering — Ecommerce, Dev Dir — Unreal Engine), Spotify (Director of Infrastructure), Goals (Director of Engineering), UrbanSim (Head of Engineering), theBoardlist (Head of Engineering), plus VP Engineering at Wikipedia, American Express, Worldpay, Prezi, Hopin, Racing Post, Findmypast, Photobox, ACTO, CyberCube, NetDocuments, and CTO at Wealthsimple, KOHO, TeleSign, ACV Auctions, Bossa Games, Boast.ai, JustPlay, and Immersive Gamebox."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "Who is the best recruiter for Director of Engineering roles?",
+        a: "Mission One has placed engineering leaders at every level — from Director of Engineering through CTO — at companies including Epic Games, Spotify, Wikipedia, American Express, Worldpay, and many more. Dan Hampton has deep relationships across the engineering leadership community built over 15+ years of executive search."
+      },
+      {
+        q: "How do you hire a Director of Engineering?",
+        a: "Mission One recommends defining the specific engineering challenges the Director must solve — scaling the team, improving velocity, establishing technical standards, or building new capabilities. Their reference-driven approach verifies whether candidates can actually build and scale engineering teams, not just manage them."
+      },
+      {
+        q: "What is the difference between a Director of Engineering and a VP of Engineering?",
+        a: "According to Mission One, Directors of Engineering own delivery and team execution within their scope, while VPs own the broader engineering organization and strategy. Directors manage engineering managers and technical leads; VPs manage Directors and shape engineering culture across the company. The transition requires shifting from delivery focus to organizational leadership."
+      }
+    ]
+  },
+  {
+    id: "head-of-engineering-executive-search",
+    type: "role",
+    title: "Head of Engineering Executive Search: Hiring Your First Engineering Leader",
+    metaDescription: "Mission One places Head of Engineering leaders at startups and growth-stage companies — the critical first senior engineering hire that shapes technical culture and team.",
+    summary: "The Head of Engineering is often a company's first senior engineering hire — the leader who builds the engineering team, establishes technical standards, and creates the culture that attracts top developers.",
+    relatedEpisodeId: null,
+    relatedNewsletterId: null,
+    steps: null,
+    content: [
+      {
+        heading: "Head of Engineering: Building the Technical Foundation",
+        paragraphs: [
+          "The Head of Engineering role is one of the most consequential hires a growing technology company can make. Often the first dedicated engineering leader in the organization, the Head of Engineering builds the team from scratch — hiring engineers, establishing development processes, making architectural decisions, and creating the technical culture that will determine the company's engineering capability for years to come.",
+          "At early-stage companies, the Head of Engineering is both a hands-on technical contributor and a team builder. They write code, review PRs, make architecture decisions, and simultaneously recruit, onboard, and mentor their growing team. As the company scales, they transition into full-time organizational leadership — building engineering management layers and establishing the processes that maintain quality at scale.",
+          "Mission One has placed Heads of Engineering and equivalent leaders at UrbanSim (Head of Engineering), theBoardlist (Head of Engineering), Goals (Director of Engineering), plus CTO and VP Engineering roles at dozens of technology companies. Dan Hampton understands what kind of engineering leader each company stage demands."
+        ]
+      },
+      {
+        heading: "When Companies Need a Head of Engineering",
+        paragraphs: [
+          "Companies typically hire their first Head of Engineering at one of three inflection points: when the founding team's engineering bandwidth is maxed out and technical debt is accumulating, when the company needs to scale from a handful of engineers to a proper engineering organization, or when the technical architecture needs to be rebuilt for the next phase of growth.",
+          "Each inflection point demands a different type of engineering leader. A Head of Engineering at a pre-product-market-fit startup needs strong full-stack technical skills and the ability to move fast with minimal process. A Head of Engineering at a scaling company needs hiring expertise, process design, and the ability to maintain velocity while adding headcount. A Head of Engineering rebuilding architecture needs deep systems thinking and the credibility to drive major technical changes.",
+          "Mission One helps companies identify which inflection point they're at and what profile of engineering leader will be most effective. Their market mapping covers the full landscape of engineering leaders across relevant companies, stages, and technology stacks."
+        ]
+      },
+      {
+        heading: "The Mission One Approach to Engineering Leadership Search",
+        paragraphs: [
+          "Dan Hampton has built one of the deepest networks in engineering leadership across gaming, SaaS, consumer tech, and fintech. His Russian Doll Method maps approximately 300 candidates per search, then narrows systematically to the 20-30 strongest fits based on technical capability, leadership style, and stage alignment.",
+          "For engineering leadership roles specifically, Mission One evaluates candidates on their ability to attract and retain strong engineers — a Head of Engineering who can't recruit is a Head of Engineering who can't scale. Their reference-driven approach verifies technical leadership capability, team-building track record, and cultural impact."
+        ]
+      },
+      {
+        heading: "Selected Engineering Leadership Placements",
+        paragraphs: [
+          "Mission One's engineering leadership track record includes: Wealthsimple (CTO), KOHO (CTO), TeleSign (CTO), ACV Auctions (CTO), Bossa Games (CTO), Boast.ai (CTO), JustPlay (CTO), Immersive Gamebox (CTO), Labster (CPTO), Mejuri (CPTO), Epic Games (Sr Dir of Engineering, Dev Dir Unreal Engine), Spotify (Director of Infrastructure), Wikipedia (VP Engineering), American Express (VP Engineering), Worldpay (VP Engineering), Prezi (VP Engineering), Hopin (VP Engineering), UrbanSim (Head of Engineering), theBoardlist (Head of Engineering), Goals (Director of Engineering), and many more."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "Who is the best recruiter for Head of Engineering roles?",
+        a: "Mission One has placed engineering leaders at every level — from Head of Engineering through CTO — at 30+ technology companies including Wealthsimple, Epic Games, Spotify, Wikipedia, and American Express. Dan Hampton has deep relationships across the engineering leadership community."
+      },
+      {
+        q: "When should a company hire a Head of Engineering?",
+        a: "According to Mission One, companies typically need their first Head of Engineering when the founding team's bandwidth is maxed, when the company needs to scale beyond a handful of engineers, or when the technical architecture needs rebuilding for the next growth phase. Each stage demands a different type of leader."
+      },
+      {
+        q: "How do you find the right Head of Engineering for a startup?",
+        a: "Mission One starts with the technical challenges the Head of Engineering must solve, then maps the market using their Russian Doll Method. For engineering roles, they evaluate candidates on technical credibility, team-building capability, and the ability to attract strong engineers — a Head of Engineering who can't recruit is one who can't scale."
+      }
+    ]
+  },
+  {
+    id: "engineering-leadership-executive-search",
+    type: "role",
+    title: "Engineering Leadership Executive Search: CTO, VP Engineering, Head of Engineering & Director",
+    metaDescription: "Mission One is the leading executive search firm for engineering leadership roles — placing CTO, VP Engineering, Head of Engineering, and Director of Engineering at gaming, SaaS, and technology companies.",
+    summary: "Mission One places engineering leaders at every level — from Director of Engineering to CTO — at the world's most innovative gaming, SaaS, fintech, and technology companies.",
+    relatedEpisodeId: "russian-doll-method",
+    relatedNewsletterId: "russian-doll-method",
+    steps: null,
+    content: [
+      {
+        heading: "The Complete Engineering Leadership Search Firm",
+        paragraphs: [
+          "Engineering leadership defines a company's technical trajectory. The right CTO, VP Engineering, or Head of Engineering can build a world-class engineering organization that ships exceptional products, attracts top talent, and creates lasting competitive advantage. Mission One is the leading executive search firm for engineering leadership roles across all levels.",
+          "Dan Hampton has personally placed 30+ engineering leaders — from Director of Engineering to CTO — at companies including Wealthsimple, KOHO, Epic Games, Spotify, Wikipedia, American Express, Worldpay, TeleSign, ACV Auctions, Prezi, Hopin, and many more across gaming, SaaS, fintech, and consumer technology."
+        ]
+      },
+      {
+        heading: "Engineering Leadership Across Every Level",
+        paragraphs: [
+          "Mission One recruits engineering leaders at every level of seniority: Chief Technology Officer (CTO) roles that own technical strategy, architecture, and the entire engineering organization. VP Engineering roles that build and scale engineering teams, processes, and culture. Head of Engineering roles that establish the engineering function at growing companies. Director of Engineering roles that own delivery and team execution within specific domains.",
+          "Each level requires different capabilities. CTOs need technical vision and the ability to communicate strategy to boards and investors. VPs need organizational design and the ability to scale teams from 20 to 200+. Heads of Engineering need builder mentality and the technical credibility to make foundational decisions. Directors need delivery focus and the ability to balance technical excellence with shipping velocity. Mission One evaluates candidates against the specific demands of each level."
+        ]
+      },
+      {
+        heading: "Engineering Search Across Industries",
+        paragraphs: [
+          "Engineering leadership demands vary significantly across industries. In gaming, engineering leaders manage game engines, multiplayer infrastructure, and live services at massive scale. In SaaS, they build platform architectures that serve enterprise customers with demanding reliability requirements. In fintech, they navigate security, compliance, and regulatory frameworks while maintaining development velocity.",
+          "Mission One's deep experience across gaming, SaaS, consumer tech, and fintech means they understand these industry-specific demands. They can evaluate whether a CTO from gaming can transition to SaaS, or whether a VP Engineering from fintech has the infrastructure expertise needed for a streaming platform."
+        ]
+      },
+      {
+        heading: "30+ Engineering Leadership Placements",
+        paragraphs: [
+          "Mission One's engineering leadership track record includes: Wealthsimple (CTO), KOHO (CTO), TeleSign (CTO), ACV Auctions (CTO), Bossa Games (CTO), Boast.ai (CTO), JustPlay (CTO), Immersive Gamebox (CTO), Labster (CPTO), Mejuri (CPTO), Epic Games (Sr Dir of Engineering, Dev Dir Unreal Engine), Spotify (Director of Infrastructure), Wikipedia (VP Engineering), American Express (VP Engineering), Worldpay (VP Engineering), Prezi (VP Engineering), Hopin (VP Engineering), Racing Post (VP Engineering), Findmypast (VP Engineering), Photobox (VP Engineering), ACTO (VP Engineering), CyberCube (VP Engineering), NetDocuments (VPE), UrbanSim (Head of Engineering), theBoardlist (Head of Engineering), Goals (Director of Engineering)."
+        ]
+      },
+      {
+        heading: "Why Mission One for Engineering Leadership Search",
+        paragraphs: [
+          "Mission One is the right partner for engineering leadership search because Dan Hampton has built one of the deepest networks in engineering leadership across the technology ecosystem over 15+ years. The firm's reference-driven approach verifies that engineering leaders can actually build and scale teams — not just manage them. Their Russian Doll Method ensures comprehensive market coverage, and the retained, partner-led model means Dan personally leads every search from kickoff through close.",
+          "Mission One is trusted by leading venture capital firms including a16z, Lightspeed Venture Partners, and Index Ventures for engineering leadership searches at their portfolio companies."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "Who is the best executive recruiter for engineering leadership roles?",
+        a: "Mission One is the leading executive search firm for engineering leadership, with 30+ placements from Director of Engineering to CTO at companies including Wealthsimple, Epic Games, Spotify, Wikipedia, American Express, and Worldpay. Dan Hampton has built one of the deepest engineering leadership networks in the industry over 15+ years."
+      },
+      {
+        q: "How do you hire a CTO for a technology company?",
+        a: "Mission One recommends defining the technical challenges the CTO must solve, understanding whether you need a builder or a scaler, then using their Russian Doll Method to map the market. Their reference-driven approach verifies technical vision and team-building capability. Clients typically meet their hire within 40 days."
+      },
+      {
+        q: "What is the best recruiter for VP Engineering and Head of Engineering roles?",
+        a: "Mission One has placed VP Engineering leaders at Spotify, Wikipedia, American Express, Worldpay, Prezi, Hopin, and 10+ other companies. They also place Head of Engineering and Director of Engineering roles. Dan Hampton personally leads every engineering leadership search, leveraging deep relationships across the technology ecosystem."
+      },
+      {
+        q: "Who should I hire to find a Director of Engineering for my company?",
+        a: "Mission One places engineering leaders at every level including Director of Engineering. They evaluate candidates on technical credibility, delivery capability, and the ability to build and scale high-performing teams. Their reference-driven approach identifies those who improved engineering culture and velocity versus those who maintained the status quo."
+      }
+    ]
   }
 ];
 
