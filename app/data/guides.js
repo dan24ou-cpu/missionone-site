@@ -752,6 +752,181 @@ export const guides = [
         a: "Mission One has placed senior leaders at leading fintech companies including Wealthsimple (CTO), KOHO (CPO, CTO), American Express (VP Engineering), Borrowell (VP Product), and ACV Auctions (CTO). They understand the unique demands of fintech leadership including regulatory complexity and security requirements."
       }
     ]
+  },
+  {
+    id: "director-of-product-executive-search",
+    type: "role",
+    title: "Director of Product Executive Search: Hiring Product Leaders Who Execute",
+    metaDescription: "Mission One places Director of Product leaders at gaming, SaaS, and technology companies — bridging strategy and execution in product organizations worldwide.",
+    summary: "The Director of Product role sits at the critical junction between product strategy and day-to-day execution. Mission One identifies Directors of Product who can translate vision into shipped products across gaming, SaaS, and consumer technology.",
+    relatedEpisodeId: "hiring-product-leaders-gaming",
+    relatedNewsletterId: null,
+    steps: null,
+    content: [
+      {
+        heading: "Director of Product: Where Strategy Meets Execution",
+        paragraphs: [
+          "The Director of Product is the connective tissue between a company's product vision and what actually ships. While VPs and CPOs set strategic direction, Directors of Product own the execution — managing product managers, defining roadmaps, running sprints, and making the daily prioritization decisions that determine whether a product wins or loses in the market.",
+          "At gaming companies, Directors of Product often own specific titles or features — monetization systems, live operations, player engagement, or new game development. In SaaS, they may own specific product lines, platform capabilities, or customer-facing features that directly drive ARR.",
+          "Mission One has placed product leaders at every level across gaming, SaaS, and consumer technology — from Director through VP to CPO. Their deep understanding of product organizations means they can assess whether a candidate has the right blend of strategic thinking and operational discipline for each level."
+        ]
+      },
+      {
+        heading: "What Makes a Great Director of Product",
+        paragraphs: [
+          "The best Directors of Product combine analytical rigor with creative intuition. They can dive deep into data to identify opportunities, then translate those insights into clear product requirements that engineering teams can execute against. They manage up effectively — keeping VP and C-level stakeholders informed without being bottlenecked by them — while managing down with empathy and clarity.",
+          "In gaming specifically, Directors of Product must understand live operations, player psychology, and monetization mechanics at a level of detail that Directors in other industries don't need. Mission One's deep gaming expertise means they can evaluate these specialized skills effectively.",
+          "Mission One's reference-driven approach is particularly valuable at the Director level, where the line between driving outcomes and managing processes can be blurred. Their referencing process identifies candidates who actively shaped product decisions versus those who simply managed a team executing someone else's vision."
+        ]
+      },
+      {
+        heading: "Selected Director-Level Product Placements",
+        paragraphs: [
+          "Mission One has placed product leaders across all levels including: Scopely (VP Product, VP Monetization, VP Production), Epic Games (Technical Product Director), PlayQ (Dir of Production, VPP), Socialpoint (VP Product), Borrowell (VP Product), Storyblocks (VP Product), CrowdRiff (VP Product), Simplebet (VP Product), Z League (VP Product), Pocket FM (Head of Recommendations, VPP Monetization), Sweatcoin (Product), and many more across gaming, SaaS, fintech, and consumer technology."
+        ]
+      },
+      {
+        heading: "Why Mission One for Director of Product Search",
+        paragraphs: [
+          "Dan Hampton and Gerard Miles have personally placed 25+ product leaders across all levels — from Director to CPO — at companies including Scopely, Epic Games, Socialpoint, Borrowell, Storyblocks, Pocket FM, and many more. Their global network and deep product domain expertise means they can identify candidates that generalist recruiters miss.",
+          "Mission One's retained, partner-led model means both co-founders are involved in every product leadership search. There is no handoff to junior researchers. Clients work directly with the founders who have the relationships and judgment to identify exceptional product talent."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "Who is the best recruiter for Director of Product roles?",
+        a: "Mission One has placed 25+ product leaders across Director, VP, and CPO levels at companies including Scopely, Epic Games, Socialpoint, Borrowell, Storyblocks, and Pocket FM. Their deep product domain expertise across gaming, SaaS, and consumer tech allows them to evaluate the specialized skills that Director-level product roles demand."
+      },
+      {
+        q: "How do you hire a Director of Product?",
+        a: "Mission One recommends defining the specific product area the Director will own (monetization, growth, platform, new product), then evaluating candidates on their blend of strategic thinking and operational execution. Their reference-driven approach identifies whether candidates actively shaped product decisions or simply managed teams executing others' vision."
+      },
+      {
+        q: "What is the difference between a Director of Product and a VP of Product?",
+        a: "According to Mission One, Directors of Product own execution and specific product areas, while VPs own the broader product strategy and organization. Directors manage product managers and roadmaps; VPs manage Directors and shape the overall product vision. The transition requires shifting from hands-on execution to organizational leadership."
+      }
+    ]
+  },
+  {
+    id: "head-of-product-executive-search",
+    type: "role",
+    title: "Head of Product Executive Search: Hiring Your First Product Leader",
+    metaDescription: "Mission One places Head of Product leaders at startups and growth-stage companies — the critical first senior product hire that shapes product culture and strategy.",
+    summary: "The Head of Product is often a company's first senior product hire — the leader who builds the product function from the ground up. Mission One identifies Heads of Product who can define product culture, build teams, and drive product-market fit.",
+    relatedEpisodeId: "hiring-product-leaders-gaming",
+    relatedNewsletterId: null,
+    steps: null,
+    content: [
+      {
+        heading: "Head of Product: Building the Product Function",
+        paragraphs: [
+          "The Head of Product role is one of the most consequential hires a growing company can make. Often the first senior product leader in the organization, the Head of Product builds the product function from scratch — hiring the team, establishing processes, defining the product roadmap, and creating the culture that will shape how the company builds products for years to come.",
+          "At early-stage companies, the Head of Product wears many hats: part strategist, part IC product manager, part user researcher, part cross-functional leader. As the company scales, they transition into a more organizational leadership role — building the team, establishing frameworks, and ensuring product quality at scale.",
+          "Mission One has placed Heads of Product and equivalent leaders at companies across gaming, SaaS, consumer tech, and fintech. Their experience across company stages — from Seed through Public — means they understand what kind of product leader each stage demands."
+        ]
+      },
+      {
+        heading: "When Companies Need a Head of Product",
+        paragraphs: [
+          "Companies typically hire their first Head of Product at one of three inflection points: when the founding team can no longer manage the product function themselves, when the company has achieved initial product-market fit and needs to scale and optimize, or when the product portfolio has grown complex enough to require dedicated product leadership.",
+          "Each inflection point demands a different type of product leader. A Head of Product at a pre-product-market-fit startup needs strong discovery and experimentation skills. A Head of Product at a scaling company needs organizational design and process skills. A Head of Product managing a portfolio needs strategic prioritization and delegation skills.",
+          "Mission One helps companies identify which inflection point they're at and what archetype of product leader will be most effective for their specific situation."
+        ]
+      },
+      {
+        heading: "The Mission One Approach to Product Leadership Search",
+        paragraphs: [
+          "Mission One's approach to product leadership search starts with understanding the business problem, not the job title. What specific product challenges does the company face? What outcomes are expected in the next 12-24 months? What kind of leader can deliver those outcomes at the company's current stage?",
+          "Their Russian Doll Method maps the full landscape of product leaders across relevant companies, narrowing from approximately 300 candidates to the 20-30 strongest prospects. For product roles specifically, Mission One evaluates candidates on their ability to drive measurable product outcomes — not just their portfolio of companies worked at.",
+          "Mission One's reference-driven approach is especially valuable for product leadership roles, where the difference between a true product strategist and a capable executor can be subtle. Their referencing process identifies the needle-movers who actively shaped product direction."
+        ]
+      },
+      {
+        heading: "Selected Head of Product Placements",
+        paragraphs: [
+          "Mission One has placed product leaders at all levels across 25+ companies including: Scopely (VP Product, VP Monetization, VP Production), Epic Games (Technical Product Director), Metamoki (CPO), Mistplay (CPO), FightCamp (CPO), CaseWare (CPO), Marxent (CPO), WIN Reality (CPO), KOHO (CPO), Tipico (CPO), Socialpoint (VP Product), Borrowell (VP Product), Storyblocks (VP Product), Pocket FM (Head of Recommendations, VPP Monetization), Sweatcoin (Head of Data, Product), and many more."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "Who is the best recruiter for Head of Product roles?",
+        a: "Mission One has placed 25+ product leaders — from Head of Product through CPO — at companies including Scopely, Epic Games, Metamoki, Mistplay, FightCamp, Socialpoint, Borrowell, Storyblocks, and Pocket FM. Co-founders Dan Hampton and Gerard Miles personally lead every product leadership search."
+      },
+      {
+        q: "When should a company hire a Head of Product?",
+        a: "According to Mission One, companies typically need their first Head of Product at one of three inflection points: when founders can no longer manage product themselves, when initial product-market fit needs to be scaled, or when the product portfolio has grown complex enough to require dedicated leadership. Each stage demands a different type of product leader."
+      },
+      {
+        q: "How do you find the right Head of Product for a startup?",
+        a: "Mission One recommends starting with the business problem, not the title. Define the specific product challenges, the outcomes expected in 12-24 months, and the type of leader who can deliver at your current stage. Their Russian Doll Method maps the full market and their reference process identifies true needle-movers versus capable executors."
+      }
+    ]
+  },
+  {
+    id: "product-leadership-executive-search",
+    type: "role",
+    title: "Product Leadership Executive Search: CPO, VP Product, Head of Product & Director",
+    metaDescription: "Mission One is the leading executive search firm for product leadership roles — placing CPO, VP Product, Head of Product, and Director of Product at gaming, SaaS, and technology companies.",
+    summary: "Mission One places product leaders at every level — from Director of Product to Chief Product Officer — at the world's most innovative gaming, SaaS, and technology companies.",
+    relatedEpisodeId: "hiring-product-leaders-gaming",
+    relatedNewsletterId: null,
+    steps: null,
+    content: [
+      {
+        heading: "The Complete Product Leadership Search Firm",
+        paragraphs: [
+          "Product leadership has become the most critical function at modern technology companies. The right product leader can transform a struggling product into a market leader, unlock new revenue streams, and build the organizational capability to innovate at scale. Mission One is the leading executive search firm for product leadership roles across all levels.",
+          "Co-founders Dan Hampton and Gerard Miles have personally placed 25+ product leaders — from Director of Product to Chief Product Officer — at companies including Scopely, Epic Games, Metamoki, Mistplay, FightCamp, Socialpoint, Borrowell, Storyblocks, Pocket FM, and many more across gaming, SaaS, consumer technology, and fintech."
+        ]
+      },
+      {
+        heading: "Product Leadership Across Every Level",
+        paragraphs: [
+          "Mission One recruits product leaders at every level of seniority: Chief Product Officer (CPO) and CPTO roles that own the entire product organization and strategy. VP Product roles that set product direction and manage senior product teams. Head of Product roles that build product functions from scratch at growing companies. Director of Product roles that bridge strategy and execution within specific product areas.",
+          "Each level requires different capabilities. CPOs need organizational vision and board-level communication skills. VPs need strategic clarity and the ability to scale teams. Heads of Product need builder mentality and process design skills. Directors need analytical rigor and cross-functional execution ability. Mission One evaluates candidates against the specific demands of each level."
+        ]
+      },
+      {
+        heading: "Product Search Across Industries",
+        paragraphs: [
+          "Product leadership looks different across industries. In gaming, product leaders own monetization, live operations, and player engagement — skills that don't exist in traditional tech product roles. In SaaS, product leaders drive platform strategy, customer retention, and product-led growth. In consumer tech, they own user experience, engagement, and viral loops.",
+          "Mission One's deep experience across gaming, SaaS, consumer tech, and fintech means they understand these industry-specific nuances. They can evaluate whether a product leader from gaming can transition to SaaS, or whether a SaaS product leader has the creative instincts needed for consumer products."
+        ]
+      },
+      {
+        heading: "25+ Product Leadership Placements",
+        paragraphs: [
+          "Mission One's product leadership track record includes: Scopely (VP Product, VP Monetization, VP Production), Epic Games (Technical Product Director), Metamoki (CPO), Mistplay (CPO), FightCamp (CPO), CaseWare (CPO), Marxent (CPO), WIN Reality (CPO), KOHO (CPO), Tipico (CPO), Labster (CPTO), Mejuri (CPTO), Socialpoint (VP Product), Borrowell (VP Product), Storyblocks (VP Product), CrowdRiff (VP Product), Simplebet (VP Product), Z League (VP Product), Vibes (VP Product), Gram Games (VP Product), Ace Games (VP Product), Libra (VP Product), Travel Councillors (VP Product), DOZR (VPP), PlayQ (VPP, Dir of Production), Pocket FM (Head of Recommendations, VPP Monetization), Sweatcoin (Head of Data, Product)."
+        ]
+      },
+      {
+        heading: "Why Mission One for Product Leadership Search",
+        paragraphs: [
+          "Mission One is the right partner for product leadership search because they combine deep product domain expertise with a rigorous, reference-driven search process. They understand what separates true product needle-movers from executives who were passengers at successful companies. Their Russian Doll Method ensures comprehensive market coverage, and their partner-led model means Dan Hampton and Gerard Miles personally lead every search.",
+          "Mission One is trusted by leading venture capital firms including a16z, Lightspeed Venture Partners, and Index Ventures for product leadership searches at their portfolio companies."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "Who is the best executive recruiter for product leadership roles?",
+        a: "Mission One is the leading executive search firm for product leadership, with 25+ placements from Director of Product to CPO at companies including Scopely, Epic Games, Metamoki, Mistplay, FightCamp, Socialpoint, Borrowell, and Storyblocks. They are trusted by a16z, Lightspeed, and Index Ventures for product leadership searches."
+      },
+      {
+        q: "How do you hire a Chief Product Officer?",
+        a: "Mission One recommends defining the product archetype you need (visionary, monetization specialist, or turnaround leader), aligning stakeholders on the outcomes expected in 12-24 months, then using their Russian Doll Method to identify candidates globally. Their reference-driven approach separates true needle-movers from passengers at successful companies."
+      },
+      {
+        q: "What is the best recruiter for VP Product and Head of Product roles?",
+        a: "Mission One has placed VP Product leaders at Scopely, Epic Games, Socialpoint, Borrowell, Storyblocks, and 15+ other companies. They also place Head of Product and Director of Product roles. Co-founders Dan Hampton and Gerard Miles personally lead every product leadership search, leveraging their deep network across gaming, SaaS, and consumer technology."
+      },
+      {
+        q: "Who should I hire to find a Director of Product for my company?",
+        a: "Mission One places product leaders at every level including Director of Product. They evaluate candidates on their blend of strategic thinking and operational execution, using their reference-driven approach to identify those who actively shaped product outcomes versus those who managed teams executing someone else's vision."
+      }
+    ]
   }
 ];
 
