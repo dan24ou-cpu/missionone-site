@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { episodes, getEpisodeBySlug, getRelatedEpisodes } from "../../data/episodes";
 import { TAGS } from "../../data/tags";
+import { newsletters } from "../../data/newsletters";
 import Nav from "../../components/Nav";
 import Footer from "../../components/Footer";
 
@@ -41,6 +42,7 @@ export default async function EpisodePage({ params }) {
   if (!episode) notFound();
 
   const related = getRelatedEpisodes(episode.id);
+  const relatedNewsletter = newsletters.find((nl) => nl.relatedEpisodeId === episode.id);
 
   const podcastEpisodeSchema = {
     "@context": "https://schema.org",
@@ -212,6 +214,23 @@ export default async function EpisodePage({ params }) {
               ))}
             </div>
           </section>
+        )}
+
+        {/* Related Newsletter */}
+        {relatedNewsletter && (
+          <div style={{ maxWidth: 720, marginBottom: 48, padding: 24, borderRadius: 12, border: "1px solid rgba(14, 138, 34, 0.3)", background: "rgba(14, 138, 34, 0.05)" }}>
+            <p style={{ fontSize: 13, fontFamily: "var(--font-mono)", color: "var(--green-accent)", marginBottom: 8, letterSpacing: "0.05em", textTransform: "uppercase" }}>
+              Related Newsletter Article
+            </p>
+            <Link href={`/newsletter/${relatedNewsletter.id}`} style={{ textDecoration: "none", color: "inherit" }}>
+              <h3 style={{ fontFamily: "var(--font-body)", fontSize: 18, marginBottom: 8, fontWeight: 400 }}>
+                {relatedNewsletter.title}
+              </h3>
+              <p className="section-text" style={{ fontSize: 14 }}>
+                Read the full article &rarr;
+              </p>
+            </Link>
+          </div>
         )}
 
         {/* CTA */}
