@@ -47,10 +47,7 @@ export default async function GuidePage({ params }) {
       name: step.name,
       text: step.text,
     })),
-    author: [
-      { "@type": "Person", name: "Dan Hampton" },
-      { "@type": "Person", name: "Gerard Miles" },
-    ],
+    author: { "@type": "Person", name: "Dan Hampton" },
     publisher: {
       "@type": "Organization",
       name: "Mission One",
@@ -65,10 +62,7 @@ export default async function GuidePage({ params }) {
     headline: guide.title,
     description: guide.metaDescription,
     url: `https://missionone.io/insights/${guide.id}`,
-    author: [
-      { "@type": "Person", name: "Dan Hampton" },
-      { "@type": "Person", name: "Gerard Miles" },
-    ],
+    author: { "@type": "Person", name: "Dan Hampton" },
     publisher: {
       "@type": "Organization",
       name: "Mission One",

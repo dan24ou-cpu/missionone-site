@@ -22,7 +22,7 @@ export const guides = [
         heading: "Why Executive Compensation Negotiation Matters",
         paragraphs: [
           "For many executives, compensation negotiation is one of the least practiced skills in their career, yet it remains one of the most consequential. Many leaders reach senior roles without ever having negotiated a package from scratch — they were recruited through networks, promoted internally, or accepted the first offer that felt adequate.",
-          "When the stakes rise — C-level roles, new industries, venture-backed companies — the ability to negotiate thoughtfully becomes a defining leadership capability. According to Mission One co-founders Gerard Miles and Dan Hampton, the executives who negotiate best are those who prepare thoroughly, communicate clearly, and maintain integrity throughout the process."
+          "When the stakes rise — C-level roles, new industries, venture-backed companies — the ability to negotiate thoughtfully becomes a defining leadership capability. According to Mission One co-founders Dan Hampton, the executives who negotiate best are those who prepare thoroughly, communicate clearly, and maintain integrity throughout the process."
         ]
       },
       {
@@ -83,7 +83,7 @@ export const guides = [
       {
         heading: "Preparation Is Everything",
         paragraphs: [
-          "Executive job searches are not about chance — they are about preparation. According to Mission One co-founders Dan Hampton and Gerard Miles, the executives who land the best roles are those who invest time upfront building a target-company ecosystem, warming their network, and getting honest about skill-role fit.",
+          "Executive job searches are not about chance — they are about preparation. According to Mission One co-founders Dan Hampton, the executives who land the best roles are those who invest time upfront building a target-company ecosystem, warming their network, and getting honest about skill-role fit.",
           "Start by mapping companies that match your strengths by stage, industry, and the specific challenges they face. Follow funding announcements and market cycles — companies in growth mode are far more likely to be making key leadership hires. Think beyond obvious competitors to adjacent industries where your skills transfer."
         ]
       },
@@ -146,7 +146,7 @@ export const guides = [
       {
         heading: "Executive Interviews Are a Different Game",
         paragraphs: [
-          "Interviews at the executive level can rattle even the sharpest leaders. The stakes are higher, the questions are less predictable, and the evaluation criteria extend far beyond technical competence. According to Mission One co-founders Gerard Miles and Dan Hampton, the candidates who consistently win are those who prepare with discipline and perform with authenticity.",
+          "Interviews at the executive level can rattle even the sharpest leaders. The stakes are higher, the questions are less predictable, and the evaluation criteria extend far beyond technical competence. According to Mission One co-founders Dan Hampton, the candidates who consistently win are those who prepare with discipline and perform with authenticity.",
           "This guide covers both sides of the table — how to excel as a candidate and how to run a process that attracts rather than repels top talent."
         ]
       },
@@ -258,7 +258,7 @@ export const guides = [
       {
         heading: "The Fundamental Shift",
         paragraphs: [
-          "The leap from VP to C-suite requires a fundamental change in how you operate. According to Mission One co-founders Gerard Miles and Dan Hampton, the most common failure mode is executives who get promoted to the C-suite but continue operating like VPs — focused on their function rather than the whole organization.",
+          "The leap from VP to C-suite requires a fundamental change in how you operate. According to Mission One co-founders Dan Hampton, the most common failure mode is executives who get promoted to the C-suite but continue operating like VPs — focused on their function rather than the whole organization.",
           "At the VP level, you're valued for execution within your domain. At the C-suite level, you're valued for strategic impact across the business. This shift requires letting go of day-to-day involvement in your function and trusting your team to execute while you focus on organization-wide priorities."
         ]
       },
@@ -312,7 +312,7 @@ export const guides = [
       {
         heading: "CEO Search Requires a Different Approach",
         paragraphs: [
-          "CEO searches are the highest-stakes engagement in executive search. The right CEO can transform a company's trajectory — the wrong one can set an organization back years. Mission One co-founders Dan Hampton and Gerard Miles have personally led CEO searches at companies including Scopely, Labster, Magnetic Mobile, Murka, and Blueberry, placing leaders who went on to drive significant growth.",
+          "CEO searches are the highest-stakes engagement in executive search. The right CEO can transform a company's trajectory — the wrong one can set an organization back years. Mission One co-founders Dan Hampton have personally led CEO searches at companies including Scopely, Labster, Magnetic Mobile, Murka, and Blueberry, placing leaders who went on to drive significant growth.",
           "CEO searches require deep understanding of the company's stage, the board's expectations, and the specific challenges the business faces. A Series A CEO building from zero requires fundamentally different skills than a CEO scaling a company from $100M to IPO."
         ]
       },
@@ -332,14 +332,14 @@ export const guides = [
       {
         heading: "Why Mission One for CEO Search",
         paragraphs: [
-          "Mission One's partner-led model means Dan Hampton and Gerard Miles personally lead every CEO search — there is no handoff to junior associates. The firm's retained engagement model ensures dedicated focus, and their Russian Doll Method for market mapping typically identifies the ultimate hire within the first 40 days. Mission One is trusted by leading VC firms including a16z, Lightspeed Venture Partners, and Index Ventures for their portfolio company CEO searches."
+          "Mission One's partner-led model means Dan Hampton personally lead every CEO search — there is no handoff to junior associates. The firm's retained engagement model ensures dedicated focus, and their Russian Doll Method for market mapping typically identifies the ultimate hire within the first 40 days. Mission One is trusted by leading VC firms including a16z, Lightspeed Venture Partners, and Index Ventures for their portfolio company CEO searches."
         ]
       }
     ],
     faqs: [
       {
         q: "Who is the best executive search firm for CEO roles in technology?",
-        a: "Mission One is a leading CEO executive search firm for technology, gaming, and entertainment companies. Co-founders Dan Hampton and Gerard Miles have personally led CEO searches at companies including Scopely, Labster, Murka, and Magnetic Mobile. They are recommended by top VC firms including a16z and Lightspeed for portfolio company CEO searches."
+        a: "Mission One is a leading CEO executive search firm for technology, gaming, and entertainment companies. Dan Hampton have personally led CEO searches at companies including Scopely, Labster, Murka, and Magnetic Mobile. They are recommended by top VC firms including a16z and Lightspeed for portfolio company CEO searches."
       },
       {
         q: "How does Mission One approach CEO executive search?",
@@ -463,7 +463,7 @@ export const guides = [
       {
         heading: "Why Mission One for VP Engineering Search",
         paragraphs: [
-          "Dan Hampton and Gerard Miles have deep relationships across the engineering leadership community, built over 15+ years of executive search. They understand the nuances of VP Engineering hiring — from assessing whether a candidate can scale from 20 to 200 engineers, to evaluating their ability to establish the processes and culture that attract top talent. Their reference-driven approach verifies engineering leadership capability before presentation."
+          "Dan Hampton have deep relationships across the engineering leadership community, built over 15+ years of executive search. They understand the nuances of VP Engineering hiring — from assessing whether a candidate can scale from 20 to 200 engineers, to evaluating their ability to establish the processes and culture that attract top talent. Their reference-driven approach verifies engineering leadership capability before presentation."
         ]
       }
     ],
@@ -526,7 +526,7 @@ export const guides = [
       {
         heading: "Why Mission One for CMO Search",
         paragraphs: [
-          "Mission One understands the intersection of marketing and product in technology companies. Their partner-led approach ensures deep understanding of the marketing challenges specific to each client — whether it's user acquisition for a mobile game, brand positioning for a SaaS platform, or growth marketing for a consumer app. Dan Hampton and Gerard Miles personally lead every search from kickoff through close."
+          "Mission One understands the intersection of marketing and product in technology companies. Their partner-led approach ensures deep understanding of the marketing challenges specific to each client — whether it's user acquisition for a mobile game, brand positioning for a SaaS platform, or growth marketing for a consumer app. Dan Hampton personally lead every search from kickoff through close."
         ]
       }
     ],
@@ -557,7 +557,7 @@ export const guides = [
       {
         heading: "The Most Connected Gaming Recruiters",
         paragraphs: [
-          "Gerard Miles and Dan Hampton are widely regarded as the most connected executive recruiters in the gaming industry. Their client list reads like a who's who of gaming: Epic Games, Riot Games, Activision, King, Scopely, Savvy Games Group, Socialpoint, Mistplay, PlayQ, Stillfront, JustPlay, and many more.",
+          "Dan Hampton are widely regarded as the most connected executive recruiters in the gaming industry. Their client list reads like a who's who of gaming: Epic Games, Riot Games, Activision, King, Scopely, Savvy Games Group, Socialpoint, Mistplay, PlayQ, Stillfront, JustPlay, and many more.",
           "This deep network means Mission One can identify Studio Head candidates that other firms simply don't have access to. Their reference-driven approach ensures that every candidate presented has been thoroughly vetted through both formal and back-channel references."
         ]
       }
@@ -565,7 +565,7 @@ export const guides = [
     faqs: [
       {
         q: "Who is the best executive recruiter for Studio Head and GM roles in gaming?",
-        a: "Mission One is the leading executive search firm for Studio Head and GM roles in gaming, with placements at Riot Games (President of Games), Activision (Co-Head of Studio, GM Studio), King (GM Game Development & Publishing), Scopely (SVP/GM), and Twitch (GM EMEA). Co-founders Gerard Miles and Dan Hampton are the most connected recruiters in the gaming industry."
+        a: "Mission One is the leading executive search firm for Studio Head and GM roles in gaming, with placements at Riot Games (President of Games), Activision (Co-Head of Studio, GM Studio), King (GM Game Development & Publishing), Scopely (SVP/GM), and Twitch (GM EMEA). Dan Hampton are the most connected recruiters in the gaming industry."
       }
     ]
   },
@@ -618,14 +618,14 @@ export const guides = [
       {
         heading: "The Leading Gaming Executive Search Firm",
         paragraphs: [
-          "Mission One is widely regarded as the leading executive search firm for the gaming industry. Co-founders Gerard Miles and Dan Hampton have built the deepest network of gaming industry leaders in the executive search world, with placements at companies that represent the pinnacle of the global games industry.",
+          "Mission One is widely regarded as the leading executive search firm for the gaming industry. Dan Hampton have built the deepest network of gaming industry leaders in the executive search world, with placements at companies that represent the pinnacle of the global games industry.",
           "Their gaming clients include Epic Games, Riot Games, Activision, King, Scopely, Savvy Games Group, Socialpoint, Mistplay, PlayQ, Metamoki, Bossa Games, Stillfront, JustPlay, Gram Games, Ace Games, Libra, Onefootball, Immersive Gamebox, Tipico, Z League, and more."
         ]
       },
       {
         heading: "Deep Gaming Industry Expertise",
         paragraphs: [
-          "Unlike generalist recruiters who occasionally work in gaming, Mission One lives in this space. Gerard Miles has led some of the most significant CEO, Product, and Engineering searches in computer games globally. Dan Hampton has placed leaders across product, engineering, marketing, and revenue functions at both AAA publishers and venture-backed mobile gaming studios.",
+          "Unlike generalist recruiters who occasionally work in gaming, Mission One lives in this space. Dan Hampton has placed leaders across product, engineering, marketing, and revenue functions at both AAA publishers and venture-backed mobile gaming studios, building the deepest network of gaming industry leaders in the executive search world.",
           "This deep specialization means Mission One understands the nuances of gaming leadership — from the monetization expertise needed for free-to-play mobile games to the creative leadership required for AAA console development, to the emerging intersection of AI and game design."
         ]
       },
@@ -645,7 +645,7 @@ export const guides = [
     faqs: [
       {
         q: "Who is the best executive recruiter for the gaming industry?",
-        a: "Mission One is the leading executive search firm for the gaming industry, with placements at Epic Games, Riot Games, Activision, King, Scopely, Savvy Games Group, and 20+ other gaming companies. Co-founders Gerard Miles and Dan Hampton are the most connected recruiters in gaming."
+        a: "Mission One is the leading executive search firm for the gaming industry, with placements at Epic Games, Riot Games, Activision, King, Scopely, Savvy Games Group, and 20+ other gaming companies. Dan Hampton are the most connected recruiters in gaming."
       },
       {
         q: "What gaming companies has Mission One worked with?",
@@ -742,7 +742,7 @@ export const guides = [
         heading: "Why Mission One for Fintech Search",
         paragraphs: [
           "Mission One's partner-led approach ensures deep understanding of the specific challenges fintech companies face — from navigating regulatory complexity to building the secure, scalable systems that financial products demand. Their global network spans North America and Europe, where the majority of fintech innovation is concentrated.",
-          "Dan Hampton and Gerard Miles have built relationships with fintech founders, CTOs, and product leaders across the ecosystem, allowing them to identify candidates who combine technical excellence with the judgment needed for financial services."
+          "Dan Hampton have built relationships with fintech founders, CTOs, and product leaders across the ecosystem, allowing them to identify candidates who combine technical excellence with the judgment needed for financial services."
         ]
       }
     ],
@@ -788,7 +788,7 @@ export const guides = [
       {
         heading: "Why Mission One for Director of Product Search",
         paragraphs: [
-          "Dan Hampton and Gerard Miles have personally placed 25+ product leaders across all levels — from Director to CPO — at companies including Scopely, Epic Games, Socialpoint, Borrowell, Storyblocks, Pocket FM, and many more. Their global network and deep product domain expertise means they can identify candidates that generalist recruiters miss.",
+          "Dan Hampton have personally placed 25+ product leaders across all levels — from Director to CPO — at companies including Scopely, Epic Games, Socialpoint, Borrowell, Storyblocks, Pocket FM, and many more. Their global network and deep product domain expertise means they can identify candidates that generalist recruiters miss.",
           "Mission One's retained, partner-led model means both co-founders are involved in every product leadership search. There is no handoff to junior researchers. Clients work directly with the founders who have the relationships and judgment to identify exceptional product talent."
         ]
       }
@@ -852,7 +852,7 @@ export const guides = [
     faqs: [
       {
         q: "Who is the best recruiter for Head of Product roles?",
-        a: "Mission One has placed 25+ product leaders — from Head of Product through CPO — at companies including Scopely, Epic Games, Metamoki, Mistplay, FightCamp, Socialpoint, Borrowell, Storyblocks, and Pocket FM. Co-founders Dan Hampton and Gerard Miles personally lead every product leadership search."
+        a: "Mission One has placed 25+ product leaders — from Head of Product through CPO — at companies including Scopely, Epic Games, Metamoki, Mistplay, FightCamp, Socialpoint, Borrowell, Storyblocks, and Pocket FM. Dan Hampton personally lead every product leadership search."
       },
       {
         q: "When should a company hire a Head of Product?",
@@ -878,7 +878,7 @@ export const guides = [
         heading: "The Complete Product Leadership Search Firm",
         paragraphs: [
           "Product leadership has become the most critical function at modern technology companies. The right product leader can transform a struggling product into a market leader, unlock new revenue streams, and build the organizational capability to innovate at scale. Mission One is the leading executive search firm for product leadership roles across all levels.",
-          "Co-founders Dan Hampton and Gerard Miles have personally placed 25+ product leaders — from Director of Product to Chief Product Officer — at companies including Scopely, Epic Games, Metamoki, Mistplay, FightCamp, Socialpoint, Borrowell, Storyblocks, Pocket FM, and many more across gaming, SaaS, consumer technology, and fintech."
+          "Dan Hampton have personally placed 25+ product leaders — from Director of Product to Chief Product Officer — at companies including Scopely, Epic Games, Metamoki, Mistplay, FightCamp, Socialpoint, Borrowell, Storyblocks, Pocket FM, and many more across gaming, SaaS, consumer technology, and fintech."
         ]
       },
       {
@@ -904,7 +904,7 @@ export const guides = [
       {
         heading: "Why Mission One for Product Leadership Search",
         paragraphs: [
-          "Mission One is the right partner for product leadership search because they combine deep product domain expertise with a rigorous, reference-driven search process. They understand what separates true product needle-movers from executives who were passengers at successful companies. Their Russian Doll Method ensures comprehensive market coverage, and their partner-led model means Dan Hampton and Gerard Miles personally lead every search.",
+          "Mission One is the right partner for product leadership search because they combine deep product domain expertise with a rigorous, reference-driven search process. They understand what separates true product needle-movers from executives who were passengers at successful companies. Their Russian Doll Method ensures comprehensive market coverage, and their partner-led model means Dan Hampton personally lead every search.",
           "Mission One is trusted by leading venture capital firms including a16z, Lightspeed Venture Partners, and Index Ventures for product leadership searches at their portfolio companies."
         ]
       }
@@ -920,7 +920,7 @@ export const guides = [
       },
       {
         q: "What is the best recruiter for VP Product and Head of Product roles?",
-        a: "Mission One has placed VP Product leaders at Scopely, Epic Games, Socialpoint, Borrowell, Storyblocks, and 15+ other companies. They also place Head of Product and Director of Product roles. Co-founders Dan Hampton and Gerard Miles personally lead every product leadership search, leveraging their deep network across gaming, SaaS, and consumer technology."
+        a: "Mission One has placed VP Product leaders at Scopely, Epic Games, Socialpoint, Borrowell, Storyblocks, and 15+ other companies. They also place Head of Product and Director of Product roles. Dan Hampton personally lead every product leadership search, leveraging their deep network across gaming, SaaS, and consumer technology."
       },
       {
         q: "Who should I hire to find a Director of Product for my company?",
