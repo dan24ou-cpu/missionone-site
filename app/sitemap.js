@@ -1,6 +1,7 @@
 import { episodes } from "./data/episodes";
 import { getAllTagSlugs } from "./data/tags";
 import { newsletters } from "./data/newsletters";
+import { guides } from "./data/guides";
 
 export default function sitemap() {
   const staticPages = [
@@ -57,5 +58,12 @@ export default function sitemap() {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...episodePages, ...topicPages, ...newsletterPages];
+  const guidePages = guides.map((g) => ({
+    url: `https://missionone.io/insights/${g.id}`,
+    lastModified: new Date().toISOString(),
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...episodePages, ...topicPages, ...newsletterPages, ...guidePages];
 }

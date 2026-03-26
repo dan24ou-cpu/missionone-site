@@ -102,6 +102,10 @@ For full episode summaries, key takeaways, and FAQs, see: https://missionone.io/
 
 Companion articles to the podcast covering executive hiring strategy, C-suite career development, compensation negotiation, and leadership insights. Full articles at https://missionone.io/newsletter.
 
+## Expert Guides & Insights (17 Guides)
+
+In-depth guides on executive hiring organized by topic, role, and industry. Includes HowTo guides, role-specific search pages (CEO, CTO, CPO, VP Engineering, VP Product, CMO, Studio Head, Chief People Officer), and sector pages (Gaming, SaaS, Consumer Tech, Fintech). Full guide index in llms-full.txt.
+
 ## Contact
 
 - Website: https://missionone.io
