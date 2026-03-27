@@ -57,7 +57,7 @@ export default async function EpisodePage({ params }) {
       name: episode.title,
       description: episode.summary,
       thumbnailUrl: `https://img.youtube.com/vi/${episode.youtubeId}/maxresdefault.jpg`,
-      uploadDate: episode.publishDate,
+      uploadDate: `${episode.publishDate}T00:00:00-05:00`,
       embedUrl: `https://www.youtube.com/embed/${episode.youtubeId}`,
     },
     partOfSeries: {

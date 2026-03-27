@@ -1,6 +1,8 @@
 'use client';
 
 import { useState, useEffect, useRef } from "react";
+import Script from "next/script";
+import { faqData } from "./data/faqData";
 
 function useInView(options = {}) {
   const ref = useRef(null);
@@ -68,6 +70,11 @@ export default function Home() {
 
   return (
     <>
+      <Script
+        id="faq-structured-data"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
+      />
       {/* NAV */}
       <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
         <img
