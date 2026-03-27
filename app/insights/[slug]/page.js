@@ -102,7 +102,7 @@ export default async function GuidePage({ params }) {
 
       <article style={{ maxWidth: 780, margin: "0 auto", padding: "40px 24px 80px" }}>
         {/* Type badge */}
-        <div style={{ fontSize: 12, fontFamily: "var(--font-mono)", color: "var(--green-accent)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 16 }}>
+        <div style={{ fontSize: 12, fontFamily: "var(--font-body)", color: "var(--green-accent)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 16 }}>
           {guide.type === "howto" ? "Guide" : guide.type === "role" ? "Executive Search by Role" : "Executive Search by Sector"}
         </div>
 
@@ -192,13 +192,13 @@ export default async function GuidePage({ params }) {
             </h2>
             {relatedEpisode && (
               <Link href={`/podcast/${relatedEpisode.id}`} style={{ display: "block", padding: 20, borderRadius: 12, border: "1px solid rgba(14, 138, 34, 0.3)", background: "rgba(14, 138, 34, 0.05)", textDecoration: "none", color: "inherit" }}>
-                <p style={{ fontSize: 12, fontFamily: "var(--font-mono)", color: "var(--green-accent)", marginBottom: 4, letterSpacing: "0.05em", textTransform: "uppercase" }}>Podcast Episode</p>
+                <p style={{ fontSize: 12, fontFamily: "var(--font-body)", color: "var(--green-accent)", marginBottom: 4, letterSpacing: "0.05em", textTransform: "uppercase" }}>Podcast Episode</p>
                 <p style={{ fontFamily: "var(--font-body)", fontSize: 16 }}>{relatedEpisode.title}</p>
               </Link>
             )}
             {relatedNewsletter && (
               <Link href={`/newsletter/${relatedNewsletter.id}`} style={{ display: "block", padding: 20, borderRadius: 12, border: "1px solid rgba(255,255,255,0.08)", background: "rgba(255,255,255,0.02)", textDecoration: "none", color: "inherit" }}>
-                <p style={{ fontSize: 12, fontFamily: "var(--font-mono)", color: "var(--green-accent)", marginBottom: 4, letterSpacing: "0.05em", textTransform: "uppercase" }}>Newsletter Article</p>
+                <p style={{ fontSize: 12, fontFamily: "var(--font-body)", color: "var(--green-accent)", marginBottom: 4, letterSpacing: "0.05em", textTransform: "uppercase" }}>Newsletter Article</p>
                 <p style={{ fontFamily: "var(--font-body)", fontSize: 16 }}>{relatedNewsletter.title}</p>
               </Link>
             )}
