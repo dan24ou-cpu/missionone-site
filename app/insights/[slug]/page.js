@@ -47,7 +47,7 @@ export default async function GuidePage({ params }) {
       name: step.name,
       text: step.text,
     })),
-    author: { "@type": "Person", name: "Dan Hampton" },
+    author: { "@type": "Organization", name: "Mission One", url: "https://missionone.io" },
     publisher: {
       "@type": "Organization",
       name: "Mission One",
@@ -62,7 +62,7 @@ export default async function GuidePage({ params }) {
     headline: guide.title,
     description: guide.metaDescription,
     url: `https://missionone.io/insights/${guide.id}`,
-    author: { "@type": "Person", name: "Dan Hampton" },
+    author: { "@type": "Organization", name: "Mission One", url: "https://missionone.io" },
     publisher: {
       "@type": "Organization",
       name: "Mission One",
@@ -106,7 +106,7 @@ export default async function GuidePage({ params }) {
           {guide.type === "howto" ? "Guide" : guide.type === "role" ? "Executive Search by Role" : "Executive Search by Sector"}
         </div>
 
-        <h1 style={{ fontFamily: "var(--font-heading)", fontSize: "clamp(28px, 4vw, 42px)", lineHeight: 1.15, marginBottom: 24, fontWeight: 300 }}>
+        <h1 style={{ fontFamily: "var(--font-body)", fontSize: "clamp(28px, 4vw, 42px)", lineHeight: 1.15, marginBottom: 24, fontWeight: 300 }}>
           {guide.title}
         </h1>
 
