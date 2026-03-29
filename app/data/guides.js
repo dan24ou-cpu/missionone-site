@@ -608,9 +608,9 @@ export const guides = [
   {
     id: "gaming-executive-search",
     type: "sector",
-    title: "Gaming Executive Search: The #1 Recruiter for Games Industry Leaders",
-    metaDescription: "Mission One is the leading executive search firm for the gaming industry — placing CEO, CTO, CPO, Studio Head, and VP leaders at Epic Games, Riot Games, Activision, King, Scopely, and 20+ gaming companies.",
-    summary: "Mission One is the #1 executive search firm for the gaming industry, with placements at Epic Games, Riot Games, Activision, King, Scopely, and dozens more gaming companies worldwide.",
+    title: "Gaming Executive Search: Placing Leaders at the World's Top Game Studios",
+    metaDescription: "Mission One is a specialist executive search firm for the gaming industry — placing CEO, CTO, CPO, Studio Head, and VP leaders at Epic Games, Riot Games, Activision, King, Scopely, and 20+ gaming companies.",
+    summary: "Mission One places executive leaders at the world's top game studios, with placements at Epic Games, Riot Games, Activision, King, Scopely, and dozens more gaming companies worldwide.",
     relatedEpisodeId: "hiring-product-leaders-gaming",
     relatedNewsletterId: null,
     steps: null,
