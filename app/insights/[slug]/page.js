@@ -102,7 +102,7 @@ export default async function GuidePage({ params }) {
 
       <article style={{ maxWidth: 780, margin: "0 auto", padding: "40px 24px 80px" }}>
         {/* Type badge */}
-        <div style={{ fontSize: 12, fontFamily: "var(--font-body)", color: "var(--green-accent)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 16 }}>
+        <div className="section-label">
           {guide.type === "howto" ? "Guide" : guide.type === "role" ? "Executive Search by Role" : "Executive Search by Sector"}
         </div>
 
