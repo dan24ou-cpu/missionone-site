@@ -202,7 +202,7 @@ export default function Home() {
                 <div className="testimonial-card-quote">
                   {testimonials[idx].quote}
                 </div>
-                <div className="testimonial-author" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginTop: "auto" }}>
+                <div className="testimonial-author" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginTop: "auto", paddingTop: 24 }}>
                   <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
                     <div className="testimonial-author-line" />
                     <div>
