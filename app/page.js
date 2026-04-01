@@ -198,11 +198,11 @@ export default function Home() {
           {[0, 1].map((offset) => {
             const idx = (activeTestimonial * 2 + offset) % testimonials.length;
             return (
-              <div className="testimonial-card" key={`${activeTestimonial}-${offset}`}>
+              <div className="testimonial-card" key={`${activeTestimonial}-${offset}`} style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                 <div className="testimonial-card-quote">
                   {testimonials[idx].quote}
                 </div>
-                <div className="testimonial-author" style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+                <div className="testimonial-author" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginTop: "auto" }}>
                   <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
                     <div className="testimonial-author-line" />
                     <div>
