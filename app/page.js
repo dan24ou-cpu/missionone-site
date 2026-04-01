@@ -37,12 +37,12 @@ function AnimateIn({ children, delay = 0, className = "" }) {
 }
 
 const testimonials = [
-  { quote: "I can count on one hand the best executive search partners I've had the opportunity to work with and Gerard and Dan represent two of the best in the industry. They build instant credibility with business leaders.", author: "Eve Nam", title: "SVP Talent, Scopely" },
-  { quote: "Gerard and Dan have been an excellent resource to source talent that is a genuine fit for our needs. Their professionalism, and ability to understand the needs of the client, is unique in the space.", author: "Josh Taub", title: "COO, Activision" },
-  { quote: "I couldn't be happier with the results. From the moment we engaged with them, they were professional, responsive, and highly effective at identifying top talent in our industry. Gerard's Mobile Gaming industry knowledge was also remarkable.", author: "Joaquim Campa", title: "Chief People Officer, Socialpoint" },
-  { quote: "Mission One has proven, from the very beginning, to be thoughtful and helpful partners who clearly know the Gaming sector exceptionally well and have strong connections. The team is truly a long-term partner for us.", author: "Sam Wholley", title: "Talent Partner, Lightspeed Venture Partners" },
-  { quote: "Gerard and Dan recently played a pivotal role in our organization in the hiring of a key position. Mission One stood out as a true collaborator, surpassing our expectations and delivering unmatched value.", author: "Junaili Lie", title: "Co-Founder & CEO, AccelByte" },
-  { quote: "Mission One delivered an outstanding global CPTO search, helping us successfully hire a top-tier leader with highly specific credentials. Their expertise in software leadership and rigorous vetting process made them a valuable partner in securing the right talent.", author: "Shawn Boom", title: "CEO, Labster, backed by a16z" },
+  { quote: "I can count on one hand the best executive search partners I've had the opportunity to work with and Gerard and Dan represent two of the best in the industry. They build instant credibility with business leaders.", author: "Eve Nam", title: "SVP Talent, Scopely", logo: "/logos/scopely.png" },
+  { quote: "Gerard and Dan have been an excellent resource to source talent that is a genuine fit for our needs. Their professionalism, and ability to understand the needs of the client, is unique in the space.", author: "Josh Taub", title: "COO, Activision", logo: "/logos/activision.png" },
+  { quote: "I couldn't be happier with the results. From the moment we engaged with them, they were professional, responsive, and highly effective at identifying top talent in our industry. Gerard's Mobile Gaming industry knowledge was also remarkable.", author: "Joaquim Campa", title: "Chief People Officer, Socialpoint", logo: "/logos/socialpoint.png" },
+  { quote: "Mission One has proven, from the very beginning, to be thoughtful and helpful partners who clearly know the Gaming sector exceptionally well and have strong connections. The team is truly a long-term partner for us.", author: "Sam Wholley", title: "Talent Partner, Lightspeed Venture Partners", logo: "/logos/lightspeed.png" },
+  { quote: "Gerard and Dan recently played a pivotal role in our organization in the hiring of a key position. Mission One stood out as a true collaborator, surpassing our expectations and delivering unmatched value.", author: "Junaili Lie", title: "Co-Founder & CEO, AccelByte", logo: "/logos/accelbyte.png" },
+  { quote: "Mission One delivered an outstanding global CPTO search, helping us successfully hire a top-tier leader with highly specific credentials. Their expertise in software leadership and rigorous vetting process made them a valuable partner in securing the right talent.", author: "Shawn Boom", title: "CEO, Labster, backed by a16z", logo: "/logos/labster.png" },
 ];
 
 export default function Home() {
@@ -202,12 +202,19 @@ export default function Home() {
                 <div className="testimonial-card-quote">
                   {testimonials[idx].quote}
                 </div>
-                <div className="testimonial-author">
-                  <div className="testimonial-author-line" />
-                  <div>
-                    <div className="testimonial-author-name">{testimonials[idx].author}</div>
-                    <div className="testimonial-author-title">{testimonials[idx].title}</div>
+                <div className="testimonial-author" style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+                    <div className="testimonial-author-line" />
+                    <div>
+                      <div className="testimonial-author-name">{testimonials[idx].author}</div>
+                      <div className="testimonial-author-title">{testimonials[idx].title}</div>
+                    </div>
                   </div>
+                  <img
+                    src={testimonials[idx].logo}
+                    alt={testimonials[idx].title.split(", ").pop()}
+                    style={{ height: 32, opacity: 0.6, filter: "brightness(0) invert(1)" }}
+                  />
                 </div>
               </div>
             );
