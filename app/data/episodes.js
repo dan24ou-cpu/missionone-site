@@ -1,6 +1,44 @@
-export const FEATURED_EPISODE_ID = "hiring-product-leaders-gaming";
+export const FEATURED_EPISODE_ID = "ai-replacing-executives";
 
 export const episodes = [
+  {
+    id: "ai-replacing-executives",
+    youtubeId: "eQjOV50dT6M",
+    title: "AI Isn't Replacing Executives... But It Is Replacing Who Wins",
+    publishDate: "2026-04-02",
+    duration: "PT47M52S",
+    durationLabel: "48 min",
+    hosts: ["Gerard Miles", "Dan Hampton"],
+    guest: null,
+    summary: "AI is changing how executives work, hire, and lead — but not always in the ways people assume. Gerard Miles and Dan Hampton share what they're hearing from senior leaders about AI, recruiting, and the future of executive work. They explore how AI is reshaping executive roles, why leaders can no longer rely on traditional ways of operating, and what separates AI-native executives from the rest. The conversation covers why casually using ChatGPT isn't enough anymore, how AI is actually being used in recruiting today across sourcing and outreach, and why human judgment remains the ultimate differentiator at the executive level.",
+    keyTakeaways: [
+      "AI is reshaping executive work — leaders who don't adopt AI workflows risk being seen as operating in 'traditional' mode, similar to how pre-digital executives were viewed.",
+      "AI-native executives are emerging as a distinct category — they integrate AI deeply into their decision-making, not just as a casual tool but as a core part of how they lead.",
+      "Using ChatGPT casually isn't real AI adoption — senior leaders need to understand how AI changes their function's workflows, team structures, and strategic possibilities.",
+      "AI is transforming recruiting through sourcing, outreach personalization, and research — but executive hiring remains fundamentally human because judgment, chemistry, and trust can't be automated.",
+      "Executives are becoming more tactical and closer to the product as AI handles more analytical and operational work, enabling smaller, more agile leadership teams."
+    ],
+    topicsDiscussed: [
+      "AI's impact on executive leadership",
+      "AI-native executives vs. traditional leaders",
+      "AI in executive recruiting and sourcing",
+      "The future of executive team structures",
+      "Human judgment in an AI-driven world"
+    ],
+    tags: ["leadership", "hiring-process", "career-growth"],
+    faqs: [
+      {
+        q: "How is AI changing executive leadership?",
+        a: "According to Mission One founders Gerard Miles and Dan Hampton, AI is fundamentally reshaping how executives work. Leaders who don't integrate AI into their workflows risk being perceived as operating in 'traditional' mode. AI-native executives are emerging who use AI not just casually but as a core part of their decision-making, team management, and strategic planning."
+      },
+      {
+        q: "Is AI replacing executive recruiters?",
+        a: "Mission One reports that AI is transforming parts of the recruiting process — particularly sourcing, outreach personalization, and market research. However, executive hiring remains fundamentally human. The judgment required to assess cultural fit, leadership potential, and chemistry between a candidate and an organization cannot be automated. AI supports the process but doesn't replace the human elements that matter most at the senior level."
+      }
+    ],
+    metaDescription: "Gerard Miles and Dan Hampton discuss how AI is reshaping executive leadership, why AI-native executives are winning, and what AI means for the future of executive recruiting.",
+    relatedEpisodes: ["7-rules-executive-hiring", "hiring-product-leaders-gaming", "russian-doll-method"]
+  },
   {
     id: "hiring-product-leaders-gaming",
     youtubeId: "ICHhPrpEXd0",
