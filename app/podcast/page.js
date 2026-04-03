@@ -82,11 +82,11 @@ export default function PodcastPage() {
             />
           </div>
           <Link href={`/podcast/${featured.id}`} style={{ textDecoration: "none", color: "inherit" }}>
-            <h2 className="podcast-featured-title">{featured.title}</h2>
+            <h2 style={{ fontFamily: "var(--font-body)", fontSize: 18, fontWeight: 400, color: "var(--text-primary)", marginTop: 16 }}>{featured.title}</h2>
           </Link>
-          <p className="section-text" style={{ maxWidth: 640, fontSize: 14, lineHeight: 1.7, marginTop: 12 }}>
+          <p style={{ fontFamily: "var(--font-body)", maxWidth: 640, fontSize: 14, lineHeight: 1.7, marginTop: 12, color: "var(--text-secondary)" }}>
             {featured.summary.substring(0, 200)}...{" "}
-            <Link href={`/podcast/${featured.id}`} style={{ color: "var(--green-accent)" }}>Read more</Link>
+            <Link href={`/podcast/${featured.id}`} style={{ color: "var(--green-accent)", fontFamily: "var(--font-body)" }}>Read more</Link>
           </p>
         </section>
       )}
