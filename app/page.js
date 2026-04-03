@@ -326,6 +326,7 @@ export default function Home() {
           <button className="footer-link" onClick={() => scrollTo("team")}>Team</button>
           <a href="/contact" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Contact</a>
           <a href="/newsletter" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Newsletter</a>
+          <a href="/resources" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Resources</a>
         </div>
       </footer>
       <div className="footer-copy">
