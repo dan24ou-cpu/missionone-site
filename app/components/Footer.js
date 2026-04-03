@@ -12,6 +12,7 @@ export default function Footer() {
           <Link href="/podcast" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Podcast</Link>
           <Link href="/contact" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Contact</Link>
           <Link href="/newsletter" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Newsletter</Link>
+          <Link href="/resources" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Resources</Link>
         </div>
       </footer>
       <div className="footer-copy">

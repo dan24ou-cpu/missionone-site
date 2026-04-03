@@ -24,6 +24,12 @@ export default function sitemap() {
       priority: 0.9,
     },
     {
+      url: "https://missionone.io/resources",
+      lastModified: new Date().toISOString(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: "https://missionone.io/contact",
       lastModified: "2025-01-01",
       changeFrequency: "monthly",
