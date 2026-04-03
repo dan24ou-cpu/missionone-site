@@ -1,5 +1,78 @@
 export const newsletters = [
   {
+    id: "ai-natives-in-hiring",
+    title: "The New Executive Gap: AI-Natives in Hiring",
+    publishDate: "2026-04-02",
+    relatedEpisodeId: "ai-replacing-executives",
+    summary: "Most executives think AI will change hiring. Fewer realize it's already changing what good leadership looks like. The shift isn't just about tools — it's about expectations. Gerard Miles and Dan Hampton break down what senior leaders are getting wrong about AI, and where the real edge is emerging.",
+    metaDescription: "Learn how AI is creating a new gap between AI-native executives and the rest — and what it means for leadership, hiring, and executive careers from Mission One.",
+    content: [
+      {
+        heading: null,
+        paragraphs: [
+          "Most executives think AI will change hiring. Fewer realize it's already changing what good leadership looks like.",
+          "The shift isn't just about tools. It's about expectations. The leaders who adapt fastest aren't the ones using AI occasionally. They're the ones rebuilding how they operate, how they hire, and how they challenge their teams.",
+          "In this episode of Mission One: The Executive Edge, Gerard Miles and Dan Hampton break down what senior leaders are getting wrong about AI, and where the real edge is emerging."
+        ]
+      },
+      {
+        heading: "The Playing Field Has Reset",
+        paragraphs: [
+          "For years, experience was a moat. Now, it's less of one.",
+          "No one has 20 years of AI experience. That means the advantage senior leaders relied on — tenure, pattern recognition, \"I've seen this before\" — is weaker in this domain.",
+          "This creates three types of executives: AI-native (building, experimenting, pushing boundaries), AI-curious (learning, testing, but not fully embedded), and AI-avoiders (waiting, delegating, or dismissing).",
+          "The risk is staying behind while others compound fast.",
+          "Executive Insight: The leaders who win aren't the ones who understand AI theoretically. They're the ones who can challenge their teams with it."
+        ]
+      },
+      {
+        heading: "\"I Use ChatGPT\" Is No Longer a Signal",
+        paragraphs: [
+          "A year ago, that answer worked. Today, it's a red flag.",
+          "Executives saying they \"play around with AI\" are signaling surface-level engagement. Meanwhile, others are building internal tools, prototyping products, and redesigning workflows.",
+          "The gap is widening quickly. The expectation now: you've built something (even small), you've tested real use cases, and you understand where AI breaks. Because that's what allows you to push your team beyond default thinking.",
+          "Executive Insight: AI fluency is becoming a leadership competency."
+        ]
+      },
+      {
+        heading: "AI Raises the Bar on What Actually Matters",
+        paragraphs: [
+          "AI makes execution cheaper, which makes judgment more valuable.",
+          "Across industries, the pattern is the same: AI accelerates ideation, prototyping, and iteration. But it struggles with originality, taste, and decision-making.",
+          "In gaming, product, and design-heavy environments, this is already visible. AI can generate options. It can't consistently identify what's worth building. That's now the differentiator.",
+          "Executive Insight: If AI can do 80% of the work, your value is in the 20% it can't: taste, clarity, and decision-making under uncertainty."
+        ]
+      },
+      {
+        heading: "Hiring Hasn't Changed Where It Matters Most",
+        paragraphs: [
+          "Despite all the noise, executive hiring hasn't been fully disrupted.",
+          "The fundamentals still win: track record, referencing, and judgment in conversation. AI hasn't replaced that. What changed is everything around it — sourcing at scale, outreach automation, interview note-taking and synthesis.",
+          "But here's where companies get it wrong. They over-automate the wrong parts. At scale hiring levels, AI-driven outreach works to a point. At the executive level, it often backfires. Low-quality messaging dressed up as personalization still feels generic. And top candidates can tell instantly.",
+          "Executive Insight: AI should support executive hiring, not replace the human effort where it matters most."
+        ]
+      },
+      {
+        heading: "Executives Are Becoming More Tactical",
+        paragraphs: [
+          "One of the clearest shifts: leaders are moving closer to the work. Smaller teams. Fewer layers. Faster cycles.",
+          "Executives are closer to product decisions, closer to data, and less focused on managing large organizational structures.",
+          "This isn't necessarily permanent, but it's real right now. The \"player-coach\" model is back. And AI is accelerating it. Because when execution speeds up, the distance from the work becomes a liability.",
+          "Executive Insight: Strategic thinking still matters, but it's no longer enough on its own."
+        ]
+      },
+      {
+        heading: "The Real Shift",
+        paragraphs: [
+          "AI isn't replacing executives. It's exposing them.",
+          "Exposing who can learn fast, who can adapt their thinking, and who can operate without relying on past playbooks.",
+          "And in hiring, it's doing the same thing: it's making it easier to move fast, but harder to fake depth.",
+          "The leaders who stand out will be the ones who know when not to trust it."
+        ]
+      }
+    ]
+  },
+  {
     id: "negotiating-executive-compensation",
     title: "Negotiating Your Worth: Executive Strategies for Better Compensation",
     publishDate: "2026-03-19",
