@@ -129,28 +129,6 @@ export default function Home() {
         
       </header>
 
-      {/* STATS */}
-      <AnimateIn>
-        <div className="stats-bar">
-          <div className="stat-item">
-            <div className="stat-number">90+</div>
-            <div className="stat-label">Placements</div>
-          </div>
-          <div className="stat-item">
-            <div className="stat-number">43</div>
-            <div className="stat-label">Clients</div>
-          </div>
-          <div className="stat-item">
-            <div className="stat-number">3</div>
-            <div className="stat-label">Continents</div>
-          </div>
-          <div className="stat-item">
-            <div className="stat-number">15+</div>
-            <div className="stat-label">Years Experience</div>
-          </div>
-        </div>
-      </AnimateIn>
-
         {/* CLIENTS */}
       <section className="section" id="clients" aria-label="Our Clients">
         <AnimateIn>
