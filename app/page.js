@@ -43,6 +43,7 @@ const testimonials = [
   { quote: "Mission One has proven, from the very beginning, to be thoughtful and helpful partners who clearly know the Gaming sector exceptionally well and have strong connections. The team is truly a long-term partner for us.", author: "Sam Wholley", title: "Talent Partner, Lightspeed Venture Partners", logo: "/logos/lightspeed.png" },
   { quote: "Gerard and Dan recently played a pivotal role in our organization in the hiring of a key position. Mission One stood out as a true collaborator, surpassing our expectations and delivering unmatched value.", author: "Junaili Lie", title: "Co-Founder & CEO, AccelByte", logo: "/logos/accelbyte.png", logoHeight: 48 },
   { quote: "Mission One delivered an outstanding global CPTO search, helping us successfully hire a top-tier leader with highly specific credentials. Their expertise in software leadership and rigorous vetting process made them a valuable partner in securing the right talent.", author: "Shawn Boom", title: "CEO, Labster, backed by a16z", logo: "/logos/labster.png" },
+  { quote: "Thanks Mission One for your support over the last few years. Been a very great partnership.", author: "Carl Livie", title: "Co-Founder & CEO, JustPlay", logo: "/logos/justplay.png" },
 ];
 
 export default function Home() {
