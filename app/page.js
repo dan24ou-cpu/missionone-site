@@ -130,6 +130,28 @@ export default function Home() {
         
       </header>
 
+      {/* STATS */}
+      <AnimateIn>
+        <div className="stats-bar">
+          <div className="stat-item">
+            <div className="stat-number">90+</div>
+            <div className="stat-label">Placements</div>
+          </div>
+          <div className="stat-item">
+            <div className="stat-number">43</div>
+            <div className="stat-label">Clients</div>
+          </div>
+          <div className="stat-item">
+            <div className="stat-number">3</div>
+            <div className="stat-label">Continents</div>
+          </div>
+          <div className="stat-item">
+            <div className="stat-number">15+</div>
+            <div className="stat-label">Years Experience</div>
+          </div>
+        </div>
+      </AnimateIn>
+
         {/* CLIENTS */}
       <section className="section" id="clients" aria-label="Our Clients">
         <AnimateIn>
@@ -214,7 +236,7 @@ export default function Home() {
                   <img
                     src={testimonials[idx].logo}
                     alt={testimonials[idx].title.split(", ").pop()}
-                    style={{ height: testimonials[idx].logoHeight || 32, opacity: 0.6, filter: "brightness(0) invert(1)" }}
+                    style={{ height: testimonials[idx].logoHeight || 40, opacity: 0.6, filter: "brightness(0) invert(1)" }}
                   />
                 </div>
               </div>
@@ -230,6 +252,9 @@ export default function Home() {
               aria-label={`Testimonials ${i * 2 + 1}-${i * 2 + 2}`}
             />
           ))}
+        </div>
+        <div className="testimonial-progress" key={activeTestimonial}>
+          <div className="testimonial-progress-bar" />
         </div>
       </section>
 
