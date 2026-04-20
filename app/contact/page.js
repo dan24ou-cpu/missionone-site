@@ -20,6 +20,13 @@ export default function ContactPage() {
       if (res.ok) {
         setSubmitted(true);
         form.reset();
+        if (typeof window !== "undefined" && window.gtag) {
+          window.gtag("event", "form_submission", {
+            event_category: "Contact",
+            event_label: data.get("source") || "direct",
+            value: 1,
+          });
+        }
       }
     } catch (err) {
       console.error(err);
