@@ -1,6 +1,52 @@
-export const FEATURED_EPISODE_ID = "ai-replacing-executives";
+export const FEATURED_EPISODE_ID = "first-board-seat";
 
 export const episodes = [
+  {
+    id: "first-board-seat",
+    youtubeId: "3RTz0C_XVdI",
+    title: "The Brutal Truth About Landing Your First Board Seat",
+    publishDate: "2026-04-16",
+    duration: "PT26M44S",
+    durationLabel: "27 min",
+    hosts: ["Gerard Miles", "Dan Hampton"],
+    guest: { name: "Nick Button-Brown", title: "Chair", company: "UK Video Games Council" },
+    summary: "How do you actually land your first board seat? Gerard Miles and Dan Hampton are joined by Nick Button-Brown, Chair of the UK Video Games Council, to detail the path from executive to board director. The conversation covers why the first board seat is brutally hard to get, the mental shift from executive decision-maker to strategic advisor, how to match your skills to company needs at the right time, the compensation spectrum from startup equity to six-figure director fees, and how to build a board portfolio that maximizes impact without burning out.",
+    keyTakeaways: [
+      "The first board seat is the hardest one to get — but by the fifth, it becomes almost routine. Start with charity trusteeships or school boards to build governance experience that maps directly onto company director work.",
+      "The hardest mindset shift from executive to board member is losing control. As an executive, you can fix things yourself; as a board member, you can only advise. Sometimes founders will ignore you entirely — and you have to be okay with that.",
+      "Board compensation varies widely: at startups, typically just a small equity stake; at PE-backed companies, non-executive director fees run $25K-$75K per year for roughly half a day to a day per month.",
+      "The best early-stage board members don't hand founders answers — they share their own wrong answers and help founders think through decisions.",
+      "Build a portfolio of board seats that matches your capacity. Too many commitments dilute your impact; the right mix maximizes strategic contribution without burning out."
+    ],
+    topicsDiscussed: [
+      "Landing your first board seat",
+      "Executive to board director transition",
+      "Board compensation and equity",
+      "Non-executive director roles",
+      "Gaming industry board governance"
+    ],
+    tags: ["board-hiring", "career-growth", "c-suite", "gaming"],
+    faqs: [
+      {
+        q: "How do I actually get my first board seat when no one will give a first-timer a chance?",
+        a: "Start with a charity trusteeship. School boards and small charities are always looking for volunteers, and the governance experience maps directly onto company director work. The first seat is the hardest. By the fifth, it becomes almost routine."
+      },
+      {
+        q: "What's the real difference between being an executive and being a board member?",
+        a: "Control. As an executive, you can fix things yourself. As a board member, you can only advise. Sometimes the founder will ignore you entirely, and you have to be okay with that."
+      },
+      {
+        q: "How much do board members actually get paid?",
+        a: "At startups, usually just a small equity stake. At PE-backed companies, non-executive director fees typically run $25K-$75K per year for roughly half a day to a day per month."
+      },
+      {
+        q: "What makes someone a genuinely good early-stage board member?",
+        a: "The best ones don't hand founders answers. They share their own wrong answers and help founders think through decisions themselves."
+      }
+    ],
+    metaDescription: "Nick Button-Brown, Chair of the UK Video Games Council, joins Gerard Miles and Dan Hampton to detail how executives actually land their first board seat.",
+    relatedEpisodes: ["vp-to-c-suite", "alexis-bonte-career-acceleration", "jonathan-knight-nyt-games"]
+  },
   {
     id: "ai-replacing-executives",
     youtubeId: "eQjOV50dT6M",
