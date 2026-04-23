@@ -1,5 +1,65 @@
 export const newsletters = [
   {
+    id: "break-into-boardroom",
+    title: "How Executives Break Into the Boardroom",
+    publishDate: "2026-04-23",
+    relatedEpisodeId: "first-board-seat",
+    summary: "How do executives transition into board roles, and why is securing that first position so hard? Gerard Miles and Dan Hampton sit down with Nick Button-Brown, Chair of the UK Video Games Council and founder of The Games Angels, to unpack the mental shift, the playbook for getting your first seat, and the real compensation behind board roles.",
+    metaDescription: "Nick Button-Brown, Chair of the UK Video Games Council, reveals how executives break into the boardroom — the mental shift, the first-seat playbook, and real compensation.",
+    content: [
+      {
+        heading: null,
+        paragraphs: [
+          "How do executives transition into board roles, and why is securing that initial position so challenging? In this episode of Mission One: The Executive Edge, Gerard Miles and Dan Hampton sit down with Nick Button-Brown, Chair of the UK Video Games Council and founder of The Games Angels, to share insights about board life and strategies for entering the boardroom.",
+          "Whether you're thinking about your first non-executive role or trying to build a portfolio of board seats, this conversation covers the real mechanics — from the mindset shift to the compensation math."
+        ]
+      },
+      {
+        heading: "The Mental Shift Nobody Warns You About",
+        paragraphs: [
+          "The transition from executive to board director involves a significant emotional adjustment. Button-Brown explains: \"It really isn't for everyone\" because executives accustomed to problem-solving must accept that board members guide decisions rather than implement them.",
+          "He characterizes his advisory role as offering guidance on what not to do based on his own experiences — comparing it to parental guidance. You watch a founder make a choice you disagree with. You share your perspective. And then you let them decide.",
+          "Executive Insight: If you need control to be effective, board roles will frustrate you. The best board members are comfortable letting others execute on their advice — or ignore it entirely."
+        ]
+      },
+      {
+        heading: "Why Honesty Builds Your Reputation Faster Than Flattery",
+        paragraphs: [
+          "A key lesson involves direct feedback. When founders Susan and Lee pitched Button-Brown an idea six years ago, he provided candid criticism rather than validation.",
+          "After they proved him right on some points — and wrong on others — the relationship strengthened significantly. Honest advisors become more memorable and more trusted than those offering easy validation.",
+          "Executive Insight: Founders have enough cheerleaders. What they're looking for from a board member is someone who will tell them the truth, even when it's uncomfortable."
+        ]
+      },
+      {
+        heading: "The Playbook for Getting That First Seat",
+        paragraphs: [
+          "Button-Brown's recommendation for aspiring board members: start with charity boards and school trusteeships as entry points. The governance experience maps directly onto company director work, and these organizations are almost always looking for volunteers.",
+          "He also suggests maintaining one meaningful unpaid position to build credibility while avoiding overcommitment across multiple roles. Quality over quantity — one impactful trusteeship is worth more than five inactive ones.",
+          "The first seat is the hardest. By the fifth, it becomes almost routine.",
+          "Executive Insight: Don't wait to be invited to a startup board. Go earn governance credibility in the non-profit world first, then leverage that into your first company directorship."
+        ]
+      },
+      {
+        heading: "The Money Talk",
+        paragraphs: [
+          "Board compensation varies significantly by company stage:",
+          "Startups: Usually equity only, sometimes with a small cash stipend. You're betting on upside.",
+          "PE-backed companies: Non-executive director fees typically run $25K–$75K per year for roughly half a day to one day per month.",
+          "Public companies: Higher compensation — often six figures — alongside significantly greater legal and fiduciary responsibility.",
+          "Executive Insight: Match the compensation structure to your career stage. Early-career executives should prioritize learning and equity upside. Later in your career, the fee structure of PE-backed or public boards makes more sense."
+        ]
+      },
+      {
+        heading: "The Real Shift",
+        paragraphs: [
+          "The transition to the boardroom isn't just about adding a title. It's about shifting from doing to advising, from control to influence, from being right to helping others find the right answer.",
+          "For executives who make the shift well, a board portfolio becomes the most intellectually rewarding phase of their career. For those who don't, it becomes a source of constant frustration.",
+          "The difference isn't skill. It's temperament."
+        ]
+      }
+    ]
+  },
+  {
     id: "ai-natives-in-hiring",
     title: "The New Executive Gap: AI-Natives in Hiring",
     publishDate: "2026-04-02",
