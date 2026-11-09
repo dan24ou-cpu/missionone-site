@@ -123,7 +123,7 @@ export default function Home() {
         </AnimateIn>
         <AnimateIn delay={0.4}>
           <p className="hero-sub">
-            Mission One is an executive search firm for critical leadership hires at the world&apos;s most innovative companies. We leverage a deep international network, refined search playbook, and partner-led approach to help you make the hires that matter most.
+            Mission One is an executive search firm for critical leadership hires, now part of the Scopely ecosystem. We leverage a deep international network, refined search playbook, and partner-led approach to help make the hires that matter most.
           </p>
         </AnimateIn>
         
