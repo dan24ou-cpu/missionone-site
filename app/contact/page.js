@@ -113,7 +113,7 @@ export default function ContactPage() {
                 </div>
                 <div className="form-group full">
                   <label className="form-label">How can we help? *</label>
-                  <textarea name="message" required className="form-input form-textarea" rows={5} placeholder="Tell us about the role you're looking to fill, your company stage, and any other details..." />
+                  <textarea name="message" required className="form-input form-textarea" rows={5} />
                 </div>
                 <button type="submit" className="form-submit" disabled={loading}>
                   {loading ? "Sending..." : "Send Message"}
