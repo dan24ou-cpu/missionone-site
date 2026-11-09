@@ -84,7 +84,7 @@ export default function Home() {
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         />
         <div className="nav-links">
-          <button className="nav-link" onClick={() => scrollTo("clients")}>Clients</button>
+          <button className="nav-link" onClick={() => scrollTo("clients")}>Past Clients</button>
           <button className="nav-link" onClick={() => scrollTo("podcast")}>Podcast</button>
           <button className="nav-link" onClick={() => scrollTo("team")}>Team</button>
           <a href="/contact" className="nav-link" style={{ textDecoration: "none", color: "inherit" }}>Contact</a>
@@ -97,7 +97,7 @@ export default function Home() {
 
       {/* MOBILE MENU */}
       <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
-        <button className="mobile-menu-link" onClick={() => scrollTo("clients")}>Clients</button>
+        <button className="mobile-menu-link" onClick={() => scrollTo("clients")}>Past Clients</button>
         <button className="mobile-menu-link" onClick={() => scrollTo("podcast")}>Podcast</button>
         <button className="mobile-menu-link" onClick={() => scrollTo("team")}>Team</button>
         <a href="/contact" className="mobile-menu-link" style={{ textDecoration: "none", color: "inherit" }}>Contact</a>
@@ -130,9 +130,9 @@ export default function Home() {
       </header>
 
         {/* CLIENTS */}
-      <section className="section" id="clients" aria-label="Our Clients">
+      <section className="section" id="clients" aria-label="Past Clients">
         <AnimateIn>
-          <div className="section-label">Our Clients</div>
+          <div className="section-label">Past Clients</div>
         </AnimateIn>
         <AnimateIn delay={0.1}>
           <h2 className="section-heading">
@@ -140,7 +140,7 @@ export default function Home() {
           </h2>
         </AnimateIn>
         <AnimateIn delay={0.2}>
-          <div className="clients-grid" role="list" aria-label="Client companies">
+          <div className="clients-grid" role="list" aria-label="Past client companies">
             {[
               { src: "/logos/scopely.png", alt: "Scopely" },
               { src: "/logos/epic-games.png", alt: "Epic Games" },
@@ -321,7 +321,7 @@ export default function Home() {
           />
         </div>
         <div className="footer-links">
-          <button className="footer-link" onClick={() => scrollTo("clients")}>Clients</button>
+          <button className="footer-link" onClick={() => scrollTo("clients")}>Past Clients</button>
           <button className="footer-link" onClick={() => scrollTo("podcast")}>Podcast</button>
           <button className="footer-link" onClick={() => scrollTo("team")}>Team</button>
           <a href="/contact" className="footer-link" style={{ textDecoration: "none", color: "inherit" }}>Contact</a>
