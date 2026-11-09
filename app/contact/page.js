@@ -57,7 +57,7 @@ export default function ContactPage() {
               Work with <em style={{ color: "#0E8A22", fontStyle: "italic" }}>Mission One</em>
             </h1>
             <p className="contact-text">
-              If you&apos;re a founder or executive looking for a partner to help you hire exceptional talent, we&apos;d love to hear from you. Send us your details and we&apos;ll respond within 24 hours.
+              If you&apos;re a games executive, we&apos;d love to hear from you. Send us your details and we&apos;ll respond within 24 hours.
             </p>
             <div className="contact-email-block">
               <div className="contact-email-label">Email us directly</div>
