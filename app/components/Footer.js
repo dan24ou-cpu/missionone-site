@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PrivacyLinks from "./PrivacyLinks";
 
 export default function Footer() {
   return (
@@ -16,6 +17,7 @@ export default function Footer() {
       </footer>
       <div className="footer-copy">
         &copy; {new Date().getFullYear()} Mission One. All Rights Reserved.
+        <PrivacyLinks />
       </div>
     </>
   );

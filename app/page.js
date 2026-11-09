@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import Script from "next/script";
 import { faqData } from "./data/faqData";
+import PrivacyLinks from "./components/PrivacyLinks";
 
 function useInView(options = {}) {
   const ref = useRef(null);
@@ -330,6 +331,7 @@ export default function Home() {
       </footer>
       <div className="footer-copy">
         © {new Date().getFullYear()} Mission One. All Rights Reserved.
+        <PrivacyLinks />
       </div>
     </>
   );

@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import PrivacyLinks, { PRIVACY_LINKS } from "../components/PrivacyLinks";
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -117,6 +118,12 @@ export default function ContactPage() {
                 <button type="submit" className="form-submit" disabled={loading}>
                   {loading ? "Sending..." : "Send Message"}
                 </button>
+                <p className="form-privacy">
+                  By submitting this form, you acknowledge that Mission One, part of the Scopely ecosystem, will process your information in accordance with Scopely&apos;s{" "}
+                  <a href={PRIVACY_LINKS[0].href} target="_blank" rel="noopener noreferrer">Privacy Notice</a>.
+                  California residents, see the <a href={PRIVACY_LINKS[1].href} target="_blank" rel="noopener noreferrer">CA Job Applicant Privacy Notice</a>.
+                  EEA and UK residents, see the <a href={PRIVACY_LINKS[2].href} target="_blank" rel="noopener noreferrer">EEA &amp; UK Job Applicant Privacy Notice</a>.
+                </p>
               </form>
             )}
           </div>
@@ -125,6 +132,7 @@ export default function ContactPage() {
 
       <footer style={{ padding: "24px 48px", borderTop: "1px solid rgba(255,255,255,0.06)", textAlign: "center", width: "100%", marginTop: "auto" }}>
         <p style={{ color: "rgba(255,255,255,0.25)", fontSize: 11, letterSpacing: 1, margin: 0 }}>© {new Date().getFullYear()} Mission One. All rights reserved.</p>
+        <PrivacyLinks />
       </footer>
 
       <style jsx>{`
@@ -267,6 +275,19 @@ export default function ContactPage() {
         }
         .form-submit:hover { opacity: 0.85; }
         .form-submit:disabled { opacity: 0.5; cursor: not-allowed; }
+        .form-privacy {
+          margin: 16px 0 0;
+          font-size: 12px;
+          line-height: 1.7;
+          color: rgba(255,255,255,0.45);
+          font-family: 'DM Sans', sans-serif;
+        }
+        .form-privacy a {
+          color: #0E8A22;
+          text-decoration: underline;
+          text-underline-offset: 2px;
+        }
+        .form-privacy a:hover { color: #fff; }
         .contact-success {
           text-align: center;
           padding: 40px 20px;
