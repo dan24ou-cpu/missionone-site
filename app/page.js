@@ -192,7 +192,7 @@ export default function Home() {
           <div className="section-label">Testimonials</div>
         </AnimateIn>
         <AnimateIn delay={0.1}>
-          <h2 className="section-heading">What our <em>clients say</em></h2>
+          <h2 className="section-heading">What our <em>past clients say</em></h2>
         </AnimateIn>
         <div className="testimonials-grid">
           {[0, 1].map((offset) => {
